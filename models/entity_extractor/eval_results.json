@@ -1,0 +1,13 @@
+{
+  "total_examples": 200,
+  "valid_json_rate": 0.99,
+  "exact_match_accuracy": 0.01,
+  "age_accuracy": 0.975,
+  "sex_accuracy": 0.69,
+  "location_accuracy": 0.53,
+  "conditions_f1": 0.331,
+  "medications_f1": 0.467,
+  "avg_latency_ms": 1350.0,
+  "p50_latency_ms": 1318.9,
+  "p95_latency_ms": 1707.7
+}

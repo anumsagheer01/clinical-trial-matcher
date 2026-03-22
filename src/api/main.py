@@ -25,6 +25,7 @@ import anthropic
 from src.search.hybrid_search import hybrid_search
 from src.mcp_servers.trial_search_server import search_trials, get_trial_details, get_eligibility_criteria
 from src.mcp_servers.drug_info_server import get_drug_info, check_drug_interactions
+from src.mcp_servers.entity_extraction_server import extract_patient_entities
 
 load_dotenv()
 
@@ -139,6 +140,17 @@ def run_agent(patient: PatientInput) -> dict:
             },
         },
         {
+            "name": "extract_patient_entities",
+            "description": "Extract structured medical entities (age, sex, conditions, medications, location) from raw patient text. Use this FIRST before searching for trials. It is fast and cheap.",
+            "input_schema": {
+                "type": "object",
+                "properties": {
+                    "patient_text": {"type": "string", "description": "Raw patient description text"},
+                },
+                "required": ["patient_text"],
+            },
+        },
+        {
             "name": "check_drug_interactions",
             "description": "Check drug interactions and contraindications. Use to verify patient's medications don't conflict with trial interventions.",
             "input_schema": {
@@ -152,34 +164,33 @@ def run_agent(patient: PatientInput) -> dict:
     ]
 
     # The system prompt tells Claude exactly what its job is
-    system_prompt = """You are a clinical trial matching assistant. Your job is to help patients find clinical trials they may be eligible for.
+    system_prompt = system_prompt = """You are a clinical trial matching assistant. Your job is to help patients find clinical trials they may be eligible for.
 
-Given a patient description, you must:
-1. Search for relevant clinical trials using the search_trials tool
-2. For the top matches, check detailed eligibility criteria using get_eligibility_criteria
-3. If the patient is on medications, check for drug interactions using check_drug_interactions
-4. Provide a clear summary of which trials the patient likely qualifies for, which they might not, and why
+Given a patient description, follow these steps:
+1. FIRST: Use extract_patient_entities to parse the patient text into structured data
+2. Use the extracted entities to search for relevant trials with search_trials
+3. For the top matches, check eligibility criteria using get_eligibility_criteria
+4. If the patient is on medications, check for drug interactions using check_drug_interactions
+5. Provide a clear summary of which trials the patient likely qualifies for and why
 
 Be thorough but concise. Always explain your reasoning about eligibility.
-Flag any potential concerns (age limits, medication conflicts, exclusion criteria).
-If the patient might qualify, say so clearly. If they probably don't, explain exactly which criteria they fail.
 
-IMPORTANT: Always return your final answer as a structured JSON object with this format:
+IMPORTANT: Return your final answer as a structured JSON object with this format:
 {
+    "patient_entities": {extracted entity data},
     "matches": [
         {
             "nct_id": "NCT...",
             "title": "Trial title",
             "match_strength": "strong" | "moderate" | "weak",
-            "explanation": "Why this trial matches or doesn't match",
-            "concerns": ["any potential issues"],
-            "next_steps": "what the patient should do"
+            "explanation": "Why this matches",
+            "concerns": ["any issues"],
+            "next_steps": "what patient should do"
         }
     ],
-    "summary": "Overall summary of findings",
-    "medications_checked": ["list of medications checked for interactions"]
+    "summary": "Overall summary",
+    "medications_checked": ["list of medications checked"]
 }"""
-
     # Build the user message
     user_msg = f"Patient description: {patient.description}"
     if patient.age:
@@ -270,6 +281,7 @@ def _call_tool(tool_name: str, tool_input: dict) -> str:
         "get_eligibility_criteria": get_eligibility_criteria,
         "get_drug_info": get_drug_info,
         "check_drug_interactions": check_drug_interactions,
+        "extract_patient_entities": extract_patient_entities,
     }
 
     func = tool_map.get(tool_name)
@@ -283,6 +295,21 @@ def _call_tool(tool_name: str, tool_input: dict) -> str:
 
 
 # === API ENDPOINTS ===
+
+class EntityInput(BaseModel):
+    """Input for standalone entity extraction."""
+    text: str
+
+
+@app.post("/extract")
+def extract_entities_endpoint(input_data: EntityInput):
+    """Extract medical entities from patient text. Uses fine-tuned model, not Claude."""
+    start_time = time.time()
+    result = extract_patient_entities(input_data.text)
+    parsed = json.loads(result)
+    parsed["total_time_ms"] = round((time.time() - start_time) * 1000, 1)
+    return parsed
+
 
 @app.get("/health")
 def health_check():

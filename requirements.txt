@@ -32,3 +32,19 @@ httpx==0.25.2
 
 # Anthropic SDK - to call Claude
 anthropic==0.39.0
+
+# Transformers - Hugging Face model library
+transformers==4.36.2
+
+# PEFT - Parameter Efficient Fine Tuning (LoRA)
+peft==0.7.1
+
+# Datasets - for loading and processing training data
+datasets==2.16.1
+
+# Accelerate - efficient training
+accelerate==0.25.0
+
+# Evaluate - model evaluation metrics
+evaluate==0.4.1
+seqeval==1.2.2

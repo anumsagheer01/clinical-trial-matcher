@@ -1,0 +1,7845 @@
+[
+  {
+    "text": "woman, age 31, presenting with underactive thyroid and anemia. On ibuprofen, zoloft, and losartan. Based in Charlotte.",
+    "entities": {
+      "age": 31,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "anemia"
+      ],
+      "medications": [
+        "ibuprofen",
+        "sertraline",
+        "losartan"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I am a 84-year-old gentleman diagnosed with stroke and gad. My current medications include metformin. I live in Cambridge.",
+    "entities": {
+      "age": 84,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "anxiety"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "gentleman, 60, with cd. Medications: prozac, aspirin, sertraline, and empagliflozin.",
+    "entities": {
+      "age": 60,
+      "sex": "Male",
+      "conditions": [
+        "crohns disease"
+      ],
+      "medications": [
+        "fluoxetine",
+        "aspirin",
+        "sertraline",
+        "empagliflozin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have generalized anxiety disorder. Age 38, man. On levoxyl and lasix.",
+    "entities": {
+      "age": 38,
+      "sex": "Male",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "levothyroxine",
+        "furosemide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have osa and leukemia. Age 45, M. On sertraline, neurontin, advil, and hydrochlorothiazide.",
+    "entities": {
+      "age": 45,
+      "sex": "Male",
+      "conditions": [
+        "sleep apnea",
+        "leukemia"
+      ],
+      "medications": [
+        "sertraline",
+        "gabapentin",
+        "ibuprofen",
+        "hydrochlorothiazide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have generalized anxiety disorder. Age 58, M. On prinivil and trexall.",
+    "entities": {
+      "age": 58,
+      "sex": "Male",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "lisinopril",
+        "methotrexate"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "27 female with kidney disease stage 4. Meds include humalog and trexall.",
+    "entities": {
+      "age": 27,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease stage 4"
+      ],
+      "medications": [
+        "insulin",
+        "methotrexate"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Male patient, 39, diagnosed with cad, prostate cancer, and mdd. Current medications: prilosec, singulair, januvia, and advil. Location: CA.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease",
+        "prostate cancer",
+        "depression"
+      ],
+      "medications": [
+        "omeprazole",
+        "montelukast",
+        "sitagliptin",
+        "ibuprofen"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "67 year old gentleman with prostate cancer, high blood pressure, and obstructive sleep apnea. Currently taking wegovy, eliquis, and lasix. Located in VA.",
+    "entities": {
+      "age": 67,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer",
+        "hypertension",
+        "sleep apnea"
+      ],
+      "medications": [
+        "semaglutide",
+        "apixaban",
+        "furosemide"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have migraine, type II diabetes, and emphysema. Age 44, male. On advil and hydrochlorothiazide. Near College Park.",
+    "entities": {
+      "age": 44,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "type 2 diabetes",
+        "copd"
+      ],
+      "medications": [
+        "ibuprofen",
+        "hydrochlorothiazide"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "22 year old female with inflammatory arthritis. Currently taking carvedilol.",
+    "entities": {
+      "age": 22,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have seizure disorder, bmi over 30, and bronchial asthma. I am 80 years old, male. I take amlodipine, zoloft, and fluoxetine daily. I am in GA.",
+    "entities": {
+      "age": 80,
+      "sex": "Male",
+      "conditions": [
+        "epilepsy",
+        "obesity",
+        "asthma"
+      ],
+      "medications": [
+        "amlodipine",
+        "sertraline",
+        "fluoxetine"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "I have colitis, hypertension, and breast tumor stage 2. Age 34, Female. On apixaban, cymbalta, and furosemide.",
+    "entities": {
+      "age": 34,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis",
+        "hypertension",
+        "breast cancer stage 2"
+      ],
+      "medications": [
+        "apixaban",
+        "duloxetine",
+        "furosemide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "low hemoglobin and lung carcinoma stage 2 - 63 year old M. Medications: metformin, sertraline, and lantus.",
+    "entities": {
+      "age": 63,
+      "sex": "Male",
+      "conditions": [
+        "anemia",
+        "lung cancer stage 2"
+      ],
+      "medications": [
+        "metformin",
+        "sertraline",
+        "insulin"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "I was diagnosed with colon cancer last year. I am 56, gentleman. Taking duloxetine and zoloft. I am in GA.",
+    "entities": {
+      "age": 56,
+      "sex": "Male",
+      "conditions": [
+        "colorectal cancer"
+      ],
+      "medications": [
+        "duloxetine",
+        "sertraline"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Male patient, 66, diagnosed with prostate carcinoma stage 4. Current medications: losartan. Location: WA.",
+    "entities": {
+      "age": 66,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer stage 4"
+      ],
+      "medications": [
+        "losartan"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "I have hyperuricemia and migraine. Age 58, F. On neurontin, losartan, and albuterol.",
+    "entities": {
+      "age": 58,
+      "sex": "Female",
+      "conditions": [
+        "gout",
+        "migraine"
+      ],
+      "medications": [
+        "gabapentin",
+        "losartan",
+        "albuterol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 66 year old male. I have been diagnosed with chronic lymphocytic leukemia. I currently take singulair. I live near Florida.",
+    "entities": {
+      "age": 66,
+      "sex": "Male",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [
+        "montelukast"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "woman, 18, with fibromyalgia. Medications: coreg, methotrexate, norvasc, and glucophage.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "fibromyalgia"
+      ],
+      "medications": [
+        "carvedilol",
+        "methotrexate",
+        "amlodipine",
+        "metformin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 49 year old man. Conditions: breast cancer stage 3 and rectal cancer stage 1. Medications: norvasc. Area: IL.",
+    "entities": {
+      "age": 49,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer stage 3",
+        "colorectal cancer stage 1"
+      ],
+      "medications": [
+        "amlodipine"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Patient is 47 yo F with inflammatory arthritis, on apixaban, plaquenil, and empagliflozin.",
+    "entities": {
+      "age": 47,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "apixaban",
+        "hydroxychloroquine",
+        "empagliflozin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "M, 53 years old. Suffering from anxiety for several years. Taking sitagliptin and insulin.",
+    "entities": {
+      "age": 53,
+      "sex": "Male",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "sitagliptin",
+        "insulin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Patient is 19 yo F with plaque psoriasis and hcv, on prednisone.",
+    "entities": {
+      "age": 19,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "hepatitis c"
+      ],
+      "medications": [
+        "prednisone"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have hcv and afib. I am 20 years old, Male. I take amlodipine, eliquis, metformin hcl, and lasix daily. I am in Tacoma.",
+    "entities": {
+      "age": 20,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "amlodipine",
+        "apixaban",
+        "metformin",
+        "furosemide"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "female, age 72, presenting with renal disease stage 5 and crohns disease. On omeprazole, cymbalta, and sitagliptin. Based in New York.",
+    "entities": {
+      "age": 72,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease stage 5",
+        "crohns disease"
+      ],
+      "medications": [
+        "omeprazole",
+        "duloxetine",
+        "sitagliptin"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "I have colorectal cancer and plaque psoriasis. Age 52, F. On warfarin.",
+    "entities": {
+      "age": 52,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer",
+        "psoriasis"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "female patient, 54, diagnosed with type II diabetes and nerve damage. Current medications: prozac, montelukast, norvasc, and apixaban. Location: Chicago.",
+    "entities": {
+      "age": 54,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "fluoxetine",
+        "montelukast",
+        "amlodipine",
+        "apixaban"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "I have high blood pressure. Age 57, F. On duloxetine.",
+    "entities": {
+      "age": 57,
+      "sex": "Female",
+      "conditions": [
+        "hypertension"
+      ],
+      "medications": [
+        "duloxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "63 year old male with brain attack and fibromyalgia syndrome. Currently taking plaquenil, lasix, and levoxyl.",
+    "entities": {
+      "age": 63,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "furosemide",
+        "levothyroxine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "69 lady diagnosed with leukemia. Based in MI.",
+    "entities": {
+      "age": 69,
+      "sex": "Female",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "Patient is 62 yo F with ckd and generalized anxiety disorder, on warfarin and methotrexate.",
+    "entities": {
+      "age": 62,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease",
+        "anxiety"
+      ],
+      "medications": [
+        "warfarin",
+        "methotrexate"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "51 y/o woman patient with psoriasis and morbid obesity, on lipitor.",
+    "entities": {
+      "age": 51,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "obesity"
+      ],
+      "medications": [
+        "atorvastatin"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Patient is a 56 yo F with history of acute lymphoblastic leukemia and iron deficiency anemia. Meds: prilosec, prednisone, and albuterol. Lives in Tucson.",
+    "entities": {
+      "age": 56,
+      "sex": "Female",
+      "conditions": [
+        "leukemia",
+        "anemia"
+      ],
+      "medications": [
+        "omeprazole",
+        "prednisone",
+        "albuterol"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Diagnosed with osa at age 45. Now 52, gentleman. Currently on ozempic and warfarin. Living in San Francisco.",
+    "entities": {
+      "age": 52,
+      "sex": "Male",
+      "conditions": [
+        "sleep apnea"
+      ],
+      "medications": [
+        "semaglutide",
+        "warfarin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Hi, I am a 21 year old gentleman. I have been diagnosed with breast carcinoma stage 1, type I diabetes, and heart failure. I currently take advil, ozempic, and zestril. I live near Orlando.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer stage 1",
+        "type 1 diabetes",
+        "heart failure"
+      ],
+      "medications": [
+        "ibuprofen",
+        "semaglutide",
+        "lisinopril"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I am a 64-year-old Female diagnosed with hep c. My current medications include deltasone and cozaar. I live in Arizona.",
+    "entities": {
+      "age": 64,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "prednisone",
+        "losartan"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "35 y/o female patient with sle and relapsing-remitting ms, on prednisone and metformin.",
+    "entities": {
+      "age": 35,
+      "sex": "Female",
+      "conditions": [
+        "lupus",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "prednisone",
+        "metformin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I am a 80 year old female with leukemia. I live in TX.",
+    "entities": {
+      "age": 80,
+      "sex": "Female",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "Patient: 35 year old woman. Conditions: htn and gad. Medications: trexall and hydrochlorothiazide. Area: North Carolina.",
+    "entities": {
+      "age": 35,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "anxiety"
+      ],
+      "medications": [
+        "methotrexate",
+        "hydrochlorothiazide"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I have generalized anxiety disorder, heart failure, and prostate cancer stage 3. I am 36 years old, F. I take singulair and duloxetine daily. I am in NYC.",
+    "entities": {
+      "age": 36,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "heart failure",
+        "prostate cancer stage 3"
+      ],
+      "medications": [
+        "montelukast",
+        "duloxetine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient is a 85 yo F with history of seizure disorder, brain attack, and persistent pain. Meds: omeprazole. Lives in Dallas.",
+    "entities": {
+      "age": 85,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy",
+        "stroke",
+        "chronic pain"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have osa and cerebrovascular accident. Age 58, woman. On metformin, albuterol, baby aspirin, and duloxetine. Near WA.",
+    "entities": {
+      "age": 58,
+      "sex": "Female",
+      "conditions": [
+        "sleep apnea",
+        "stroke"
+      ],
+      "medications": [
+        "metformin",
+        "albuterol",
+        "aspirin",
+        "duloxetine"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "21 y/o Male patient with cad, alzheimers disease, and elevated blood pressure, on metformin and lasix.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease",
+        "alzheimers disease",
+        "hypertension"
+      ],
+      "medications": [
+        "metformin",
+        "furosemide"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "64 year old M with ra, chronic psoriasis, and stroke. Currently taking prozac.",
+    "entities": {
+      "age": 64,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis",
+        "psoriasis",
+        "stroke"
+      ],
+      "medications": [
+        "fluoxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "61 year old Female with type 2 diabetes and breast cancer. Currently taking humalog.",
+    "entities": {
+      "age": 61,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes",
+        "breast cancer"
+      ],
+      "medications": [
+        "insulin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 19 year old M. Conditions: gout and renal disease stage 4. Medications: empagliflozin. Area: Cleveland.",
+    "entities": {
+      "age": 19,
+      "sex": "Male",
+      "conditions": [
+        "gout",
+        "chronic kidney disease stage 4"
+      ],
+      "medications": [
+        "empagliflozin"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "I am a 21 year old lady with dementia, colon cancer stage 1, and oa. I live in NYC.",
+    "entities": {
+      "age": 21,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "colorectal cancer stage 1",
+        "osteoarthritis"
+      ],
+      "medications": [],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "65 man diagnosed with kidney disease stage 2. Based in Manhattan.",
+    "entities": {
+      "age": 65,
+      "sex": "Male",
+      "conditions": [
+        "chronic kidney disease stage 2"
+      ],
+      "medications": [],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient is 53 yo F with osa, on prozac, metformin hcl, trexall, and lantus.",
+    "entities": {
+      "age": 53,
+      "sex": "Female",
+      "conditions": [
+        "sleep apnea"
+      ],
+      "medications": [
+        "fluoxetine",
+        "metformin",
+        "methotrexate",
+        "insulin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 39-year-old female diagnosed with leukemia and nsclc stage 4. My current medications include sitagliptin. I live in Manhattan.",
+    "entities": {
+      "age": 39,
+      "sex": "Female",
+      "conditions": [
+        "leukemia",
+        "lung cancer stage 4"
+      ],
+      "medications": [
+        "sitagliptin"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient is 20 yo M with migraine, on montelukast.",
+    "entities": {
+      "age": 20,
+      "sex": "Male",
+      "conditions": [
+        "migraine"
+      ],
+      "medications": [
+        "montelukast"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "44 year old Female with low hemoglobin and renal disease. Currently taking jardiance and neurontin.",
+    "entities": {
+      "age": 44,
+      "sex": "Female",
+      "conditions": [
+        "anemia",
+        "chronic kidney disease"
+      ],
+      "medications": [
+        "empagliflozin",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "57 year old male with neuropathy, heart failure, and copd. Currently taking januvia. Located in Tucson.",
+    "entities": {
+      "age": 57,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy",
+        "heart failure",
+        "copd"
+      ],
+      "medications": [
+        "sitagliptin"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "male, age 62, presenting with morbid obesity. On lisinopril, synthroid, and low-dose aspirin. Based in Texas.",
+    "entities": {
+      "age": 62,
+      "sex": "Male",
+      "conditions": [
+        "obesity"
+      ],
+      "medications": [
+        "lisinopril",
+        "levothyroxine",
+        "aspirin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am a 67-year-old female diagnosed with sle, migraine, and crohn disease. My current medications include furosemide, omeprazole, and empagliflozin. I live in Houston.",
+    "entities": {
+      "age": 67,
+      "sex": "Female",
+      "conditions": [
+        "lupus",
+        "migraine",
+        "crohns disease"
+      ],
+      "medications": [
+        "furosemide",
+        "omeprazole",
+        "empagliflozin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I have breast carcinoma, plaque psoriasis, and gad. I am 54 years old, woman. I take methotrexate daily. I am in VA.",
+    "entities": {
+      "age": 54,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer",
+        "psoriasis",
+        "anxiety"
+      ],
+      "medications": [
+        "methotrexate"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I am a 78-year-old gentleman diagnosed with sle. My current medications include norvasc, ozempic, and hydroxychloroquine. I live in Texas.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "lupus"
+      ],
+      "medications": [
+        "amlodipine",
+        "semaglutide",
+        "hydroxychloroquine"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "woman, 62 years old. Suffering from sle for several years. Taking deltasone and levothyroxine.",
+    "entities": {
+      "age": 62,
+      "sex": "Female",
+      "conditions": [
+        "lupus"
+      ],
+      "medications": [
+        "prednisone",
+        "levothyroxine"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "male, 65, with chronic obstructive pulmonary disease and osa. Medications: prednisone, albuterol, hydroxychloroquine, and warfarin.",
+    "entities": {
+      "age": 65,
+      "sex": "Male",
+      "conditions": [
+        "copd",
+        "sleep apnea"
+      ],
+      "medications": [
+        "prednisone",
+        "albuterol",
+        "hydroxychloroquine",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "59 male with coronary artery disease. Meds include sitagliptin.",
+    "entities": {
+      "age": 59,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease"
+      ],
+      "medications": [
+        "sitagliptin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I have elevated blood pressure and chronic pain. Age 58, Female. On carvedilol and prednisone.",
+    "entities": {
+      "age": 58,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "chronic pain"
+      ],
+      "medications": [
+        "carvedilol",
+        "prednisone"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have seizure disorder. Age 34, M. On losartan. Near Seattle.",
+    "entities": {
+      "age": 34,
+      "sex": "Male",
+      "conditions": [
+        "epilepsy"
+      ],
+      "medications": [
+        "losartan"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "Female, 72, with neuropathy, prostate cancer, and gouty arthritis. Medications: norvasc and eliquis.",
+    "entities": {
+      "age": 72,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy",
+        "prostate cancer",
+        "gout"
+      ],
+      "medications": [
+        "amlodipine",
+        "apixaban"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "lady, 77, with heart disease and nsclc. Medications: furosemide and cymbalta.",
+    "entities": {
+      "age": 77,
+      "sex": "Female",
+      "conditions": [
+        "coronary artery disease",
+        "lung cancer"
+      ],
+      "medications": [
+        "furosemide",
+        "duloxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is a 80 yo F with history of alzheimers disease and fms. Meds: jardiance and gabapentin. Lives in Pennsylvania.",
+    "entities": {
+      "age": 80,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "empagliflozin",
+        "gabapentin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "I was diagnosed with ms last year. I am 81, male. Taking sitagliptin. I am in Dallas.",
+    "entities": {
+      "age": 81,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "sitagliptin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "male, 21, with hepatitis c. Medications: plaquenil.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "male, age 47, presenting with ra. On cozaar. Based in Michigan.",
+    "entities": {
+      "age": 47,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "losartan"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "Patient is 58 yo M with anxiety, type 1 diabetes, and cardiac failure, on ventolin and neurontin.",
+    "entities": {
+      "age": 58,
+      "sex": "Male",
+      "conditions": [
+        "anxiety",
+        "type 1 diabetes",
+        "heart failure"
+      ],
+      "medications": [
+        "albuterol",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 33-year-old Female diagnosed with seizure disorder. My current medications include neurontin, hctz, synthroid, and low-dose aspirin. I live in Cambridge.",
+    "entities": {
+      "age": 33,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy"
+      ],
+      "medications": [
+        "gabapentin",
+        "hydrochlorothiazide",
+        "levothyroxine",
+        "aspirin"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "female, age 45, presenting with congestive heart failure and parkinsons disease. On coumadin, tamoxifen, atorvastatin, and cymbalta. Based in IL.",
+    "entities": {
+      "age": 45,
+      "sex": "Female",
+      "conditions": [
+        "heart failure",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "warfarin",
+        "tamoxifen",
+        "atorvastatin",
+        "duloxetine"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "I was diagnosed with gouty arthritis and ms last year. I am 52, female. Taking hydroxychloroquine and zoloft. I am in IL.",
+    "entities": {
+      "age": 52,
+      "sex": "Female",
+      "conditions": [
+        "gout",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "sertraline"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "I have gouty arthritis. Age 69, lady. On jardiance, plaquenil, and semaglutide.",
+    "entities": {
+      "age": 69,
+      "sex": "Female",
+      "conditions": [
+        "gout"
+      ],
+      "medications": [
+        "empagliflozin",
+        "hydroxychloroquine",
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "man, 49 years old. Suffering from parkinson disease for several years. Taking wegovy.",
+    "entities": {
+      "age": 49,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "Female, 75, with ms and ulcerative colitis. Medications: methotrexate and apixaban.",
+    "entities": {
+      "age": 75,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis",
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "methotrexate",
+        "apixaban"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have breast carcinoma stage 4 and t1dm. Age 55, man. On plaquenil and methotrexate.",
+    "entities": {
+      "age": 55,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer stage 4",
+        "type 1 diabetes"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "methotrexate"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "colon cancer, nsclc stage 1, and convulsive disorder patient looking for trials.",
+    "entities": {
+      "age": 61,
+      "sex": "Male",
+      "conditions": [
+        "colorectal cancer",
+        "lung cancer stage 1",
+        "epilepsy"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 48-year-old Female diagnosed with cd and htn. My current medications include coreg. I live in Florida.",
+    "entities": {
+      "age": 48,
+      "sex": "Female",
+      "conditions": [
+        "crohns disease",
+        "hypertension"
+      ],
+      "medications": [
+        "carvedilol"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I was diagnosed with migraine and obstructive sleep apnea last year. I am 72, male. Taking lisinopril and gabapentin. I am in Dallas.",
+    "entities": {
+      "age": 72,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "sleep apnea"
+      ],
+      "medications": [
+        "lisinopril",
+        "gabapentin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I have inflammatory arthritis. I am 73 years old, woman. I take warfarin and coreg daily. I am in Boston.",
+    "entities": {
+      "age": 73,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "warfarin",
+        "carvedilol"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Hi, I am a 85 year old woman. I have been diagnosed with t1dm and sle. I currently take lasix and tamoxifen. I live near IL.",
+    "entities": {
+      "age": 85,
+      "sex": "Female",
+      "conditions": [
+        "type 1 diabetes",
+        "lupus"
+      ],
+      "medications": [
+        "furosemide",
+        "tamoxifen"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "man patient, 50, diagnosed with migraine and hep c. Current medications: deltasone, coumadin, and insulin. Location: IL.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "hepatitis c"
+      ],
+      "medications": [
+        "prednisone",
+        "warfarin",
+        "insulin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "24 year old man with post-traumatic stress disorder. Currently taking ozempic and hctz.",
+    "entities": {
+      "age": 24,
+      "sex": "Male",
+      "conditions": [
+        "ptsd"
+      ],
+      "medications": [
+        "semaglutide",
+        "hydrochlorothiazide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have pd and breast tumor. Age 26, female. On jardiance, prednisone, insulin, and cozaar.",
+    "entities": {
+      "age": 26,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease",
+        "breast cancer"
+      ],
+      "medications": [
+        "empagliflozin",
+        "prednisone",
+        "insulin",
+        "losartan"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 39 year old Female. Conditions: colitis, osa, and ra. Medications: sitagliptin, ozempic, and cozaar. Area: Pittsburgh.",
+    "entities": {
+      "age": 39,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis",
+        "sleep apnea",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "sitagliptin",
+        "semaglutide",
+        "losartan"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient is 33 yo M with low thyroid and fibromyalgia, on furosemide and metformin hcl.",
+    "entities": {
+      "age": 33,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "furosemide",
+        "metformin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 73-year-old lady diagnosed with anxiety disorder and heart failure. My current medications include motrin and prednisone. I live in NYC.",
+    "entities": {
+      "age": 73,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "heart failure"
+      ],
+      "medications": [
+        "ibuprofen",
+        "prednisone"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient is 27 yo M with nerve damage and chronic pain, on prinivil.",
+    "entities": {
+      "age": 27,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy",
+        "chronic pain"
+      ],
+      "medications": [
+        "lisinopril"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "23 woman with seizure disorder and mdd. Meds include levothyroxine and omeprazole.",
+    "entities": {
+      "age": 23,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy",
+        "depression"
+      ],
+      "medications": [
+        "levothyroxine",
+        "omeprazole"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "68 year old M with alzheimer disease and degenerative joint disease. Currently taking lisinopril, lasix, and deltasone. Located in PA.",
+    "entities": {
+      "age": 68,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "lisinopril",
+        "furosemide",
+        "prednisone"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "I have lung carcinoma stage 2 and heart disease.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "lung cancer stage 2",
+        "coronary artery disease"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "I have prostate carcinoma and juvenile diabetes. Age 68, lady. On singulair and carvedilol.",
+    "entities": {
+      "age": 68,
+      "sex": "Female",
+      "conditions": [
+        "prostate cancer",
+        "type 1 diabetes"
+      ],
+      "medications": [
+        "montelukast",
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is a 68 yo M with history of plaque psoriasis. Meds: albuterol. Lives in MA.",
+    "entities": {
+      "age": 68,
+      "sex": "Male",
+      "conditions": [
+        "psoriasis"
+      ],
+      "medications": [
+        "albuterol"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have long-term pain. Age 28, gentleman. On prilosec. Near MA.",
+    "entities": {
+      "age": 28,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "18 year old F with alzheimers disease and a-fib. Currently taking semaglutide.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "F, 52 years old. Suffering from acute lymphoblastic leukemia and plaque psoriasis for several years. Taking prednisone and eliquis.",
+    "entities": {
+      "age": 52,
+      "sex": "Female",
+      "conditions": [
+        "leukemia",
+        "psoriasis"
+      ],
+      "medications": [
+        "prednisone",
+        "apixaban"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Diagnosed with hypertension and chronic hepatitis c. Age 30.",
+    "entities": {
+      "age": 30,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "hepatitis c"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "68 year old M with degenerative joint disease and neuropathy. Currently taking prozac and levothyroxine. Located in Atlanta.",
+    "entities": {
+      "age": 68,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "fluoxetine",
+        "levothyroxine"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Patient is a 77 yo F with history of colon cancer and type 2 diabetes. Meds: levothyroxine. Lives in Ohio.",
+    "entities": {
+      "age": 77,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer",
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "levothyroxine"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "persistent pain and chronic psoriasis - 34 year old M. Medications: carvedilol, sitagliptin, nolvadex, and deltasone.",
+    "entities": {
+      "age": 34,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "psoriasis"
+      ],
+      "medications": [
+        "carvedilol",
+        "sitagliptin",
+        "tamoxifen",
+        "prednisone"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "I have alzheimer disease and a-fib. I am 52 years old, gentleman. I take hydrochlorothiazide, motrin, coumadin, and norvasc daily. I am in New York.",
+    "entities": {
+      "age": 52,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "hydrochlorothiazide",
+        "ibuprofen",
+        "warfarin",
+        "amlodipine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "42 year old man with crohn disease and fms. Located in NYC.",
+    "entities": {
+      "age": 42,
+      "sex": "Male",
+      "conditions": [
+        "crohns disease",
+        "fibromyalgia"
+      ],
+      "medications": [],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "I have cva and anxiety. Age 35, Female. On prilosec.",
+    "entities": {
+      "age": 35,
+      "sex": "Female",
+      "conditions": [
+        "stroke",
+        "anxiety"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with seizure disorder and reactive airway disease at age 55. Now 71, Female. Currently on januvia, amlodipine, lantus, and methotrexate. Living in Manhattan.",
+    "entities": {
+      "age": 71,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy",
+        "asthma"
+      ],
+      "medications": [
+        "sitagliptin",
+        "amlodipine",
+        "insulin",
+        "methotrexate"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "49 gentleman with nerve damage and osa. Meds include methotrexate and zoloft.",
+    "entities": {
+      "age": 49,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy",
+        "sleep apnea"
+      ],
+      "medications": [
+        "methotrexate",
+        "sertraline"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "22 y/o Female patient with rectal cancer and depression, on metformin.",
+    "entities": {
+      "age": 22,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer",
+        "depression"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "Female, age 61, presenting with seizure disorder, ulcerative colitis, and migraine headaches. On hydroxychloroquine. Based in NY.",
+    "entities": {
+      "age": 61,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy",
+        "ulcerative colitis",
+        "migraine"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have psoriasis and lung cancer stage 3. Age 67, Female. On proair, jardiance, aspirin, and cymbalta. Near Arizona.",
+    "entities": {
+      "age": 67,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "lung cancer stage 3"
+      ],
+      "medications": [
+        "albuterol",
+        "empagliflozin",
+        "aspirin",
+        "duloxetine"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "44 y/o lady patient with post-traumatic stress disorder, on empagliflozin.",
+    "entities": {
+      "age": 44,
+      "sex": "Female",
+      "conditions": [
+        "ptsd"
+      ],
+      "medications": [
+        "empagliflozin"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "23 year old female with plaque psoriasis and chronic lymphocytic leukemia. Located in WA.",
+    "entities": {
+      "age": 23,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "leukemia"
+      ],
+      "medications": [],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "man, 21, with colitis. Medications: lisinopril and coumadin.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "lisinopril",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is a 30 yo F with history of hypothyroidism, kidney disease, and crohn disease. Meds: proair, coumadin, and glucophage. Lives in Tampa.",
+    "entities": {
+      "age": 30,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "chronic kidney disease",
+        "crohns disease"
+      ],
+      "medications": [
+        "albuterol",
+        "warfarin",
+        "metformin"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "Female patient, 59, diagnosed with multiple sclerosis. Current medications: sertraline. Location: NC.",
+    "entities": {
+      "age": 59,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I am a 62-year-old man diagnosed with type 2 diabetes. My current medications include lantus and metformin hcl. I live in IL.",
+    "entities": {
+      "age": 62,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "insulin",
+        "metformin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "36 M diagnosed with hypertension. Based in Tucson.",
+    "entities": {
+      "age": 36,
+      "sex": "Male",
+      "conditions": [
+        "hypertension"
+      ],
+      "medications": [],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Patient is a 71 yo M with history of obstructive sleep apnea. Meds: ozempic. Lives in Pittsburgh.",
+    "entities": {
+      "age": 71,
+      "sex": "Male",
+      "conditions": [
+        "sleep apnea"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "I have rheumatoid arthritis, type 1 diabetes, and heart disease. I am 29 years old, gentleman. I take glucophage daily. I am in Cincinnati.",
+    "entities": {
+      "age": 29,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis",
+        "type 1 diabetes",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "31 M with nerve damage and relapsing-remitting ms. Meds include metformin.",
+    "entities": {
+      "age": 31,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient is 48 yo F with mdd and heart failure, on lisinopril and motrin.",
+    "entities": {
+      "age": 48,
+      "sex": "Female",
+      "conditions": [
+        "depression",
+        "heart failure"
+      ],
+      "medications": [
+        "lisinopril",
+        "ibuprofen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have inflammatory arthritis and alzheimer disease. Age 37, Female. On coumadin, cozaar, and hctz. Near California.",
+    "entities": {
+      "age": 37,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis",
+        "alzheimers disease"
+      ],
+      "medications": [
+        "warfarin",
+        "losartan",
+        "hydrochlorothiazide"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "I have chf and rheumatoid arthritis. Age 49, F. On sertraline and coreg.",
+    "entities": {
+      "age": 49,
+      "sex": "Female",
+      "conditions": [
+        "heart failure",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "sertraline",
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have underactive thyroid and ckd stage 1. Age 71, female. On gabapentin, losartan, and apixaban.",
+    "entities": {
+      "age": 71,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "chronic kidney disease stage 1"
+      ],
+      "medications": [
+        "gabapentin",
+        "losartan",
+        "apixaban"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is 61 yo M with parkinson disease, major depressive disorder, and chronic obstructive pulmonary disease, on advil and duloxetine.",
+    "entities": {
+      "age": 61,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease",
+        "depression",
+        "copd"
+      ],
+      "medications": [
+        "ibuprofen",
+        "duloxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 38 year old F. I have been diagnosed with convulsive disorder, t2dm, and sleep apnea. I currently take carvedilol, plaquenil, and ventolin. I live near PA.",
+    "entities": {
+      "age": 38,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy",
+        "type 2 diabetes",
+        "sleep apnea"
+      ],
+      "medications": [
+        "carvedilol",
+        "hydroxychloroquine",
+        "albuterol"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient is 26 yo M with anemia, on lipitor and prilosec.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "anemia"
+      ],
+      "medications": [
+        "atorvastatin",
+        "omeprazole"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I was diagnosed with lung carcinoma and migraine headaches last year. I am 78, Female. Taking plaquenil. I am in Maryland.",
+    "entities": {
+      "age": 78,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer",
+        "migraine"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "gentleman patient, 18, diagnosed with oa. Current medications: empagliflozin, duloxetine, and lasix. Location: Arizona.",
+    "entities": {
+      "age": 18,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis"
+      ],
+      "medications": [
+        "empagliflozin",
+        "duloxetine",
+        "furosemide"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "I have hypothyroidism and prostate carcinoma. Age 25, female. On semaglutide.",
+    "entities": {
+      "age": 25,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "prostate cancer"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 37 year old gentleman. I have been diagnosed with post-traumatic stress disorder and acute lymphoblastic leukemia. I currently take ozempic and glucophage. I live near Los Angeles.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "leukemia"
+      ],
+      "medications": [
+        "semaglutide",
+        "metformin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have human immunodeficiency virus and persistent pain. Age 26, gentleman. On insulin glargine and cozaar. Near Raleigh.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "hiv",
+        "chronic pain"
+      ],
+      "medications": [
+        "insulin",
+        "losartan"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Female, 85, with sle, type II diabetes, and hiv positive. Medications: gabapentin, lantus, and carvedilol.",
+    "entities": {
+      "age": 85,
+      "sex": "Female",
+      "conditions": [
+        "lupus",
+        "type 2 diabetes",
+        "hiv"
+      ],
+      "medications": [
+        "gabapentin",
+        "insulin",
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have uc and ptsd. Age 81, Male. On fluoxetine, prednisone, and levothyroxine.",
+    "entities": {
+      "age": 81,
+      "sex": "Male",
+      "conditions": [
+        "ulcerative colitis",
+        "ptsd"
+      ],
+      "medications": [
+        "fluoxetine",
+        "prednisone",
+        "levothyroxine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "post-traumatic stress disorder and generalized anxiety disorder - 30 year old male. Medications: gabapentin, hydroxychloroquine, and baby aspirin.",
+    "entities": {
+      "age": 30,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "anxiety"
+      ],
+      "medications": [
+        "gabapentin",
+        "hydroxychloroquine",
+        "aspirin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "42 year old man with inflammatory arthritis and post-traumatic stress disorder. Currently taking coumadin, lasix, and empagliflozin.",
+    "entities": {
+      "age": 42,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis",
+        "ptsd"
+      ],
+      "medications": [
+        "warfarin",
+        "furosemide",
+        "empagliflozin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "34 year old male with hcv, type I diabetes, and colitis. Located in Texas.",
+    "entities": {
+      "age": 34,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c",
+        "type 1 diabetes",
+        "ulcerative colitis"
+      ],
+      "medications": [],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "Hi, I am a 53 year old woman. I have been diagnosed with major depressive disorder. I currently take tamoxifen and trexall. I live near Pittsburgh.",
+    "entities": {
+      "age": 53,
+      "sex": "Female",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [
+        "tamoxifen",
+        "methotrexate"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "54 year old female with sle and colorectal cancer. Currently taking duloxetine, furosemide, and trexall.",
+    "entities": {
+      "age": 54,
+      "sex": "Female",
+      "conditions": [
+        "lupus",
+        "colorectal cancer"
+      ],
+      "medications": [
+        "duloxetine",
+        "furosemide",
+        "methotrexate"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 81 year old F. Conditions: obesity and prostate carcinoma stage 4. Medications: zoloft, plaquenil, and cozaar. Area: Houston.",
+    "entities": {
+      "age": 81,
+      "sex": "Female",
+      "conditions": [
+        "obesity",
+        "prostate cancer stage 4"
+      ],
+      "medications": [
+        "sertraline",
+        "hydroxychloroquine",
+        "losartan"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I have underactive thyroid, neuropathy, and colon cancer stage 3. Age 69, F. On prednisone.",
+    "entities": {
+      "age": 69,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "peripheral neuropathy",
+        "colorectal cancer stage 3"
+      ],
+      "medications": [
+        "prednisone"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "28 year old M with diabetes mellitus type 2 and fibromyalgia. Currently taking coumadin.",
+    "entities": {
+      "age": 28,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "M, 64, with human immunodeficiency virus and ms. Medications: carvedilol, jardiance, montelukast, and coumadin.",
+    "entities": {
+      "age": 64,
+      "sex": "Male",
+      "conditions": [
+        "hiv",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "carvedilol",
+        "empagliflozin",
+        "montelukast",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 44 year old Male. I have been diagnosed with parkinson disease and multiple sclerosis. I currently take warfarin, humalog, and lisinopril. I live near Michigan.",
+    "entities": {
+      "age": 44,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "warfarin",
+        "insulin",
+        "lisinopril"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "35 man diagnosed with depression. Based in Massachusetts.",
+    "entities": {
+      "age": 35,
+      "sex": "Male",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "72 year old man with emphysema. Currently taking prilosec.",
+    "entities": {
+      "age": 72,
+      "sex": "Male",
+      "conditions": [
+        "copd"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "obesity and osa patient looking for trials.",
+    "entities": {
+      "age": 20,
+      "sex": "Female",
+      "conditions": [
+        "obesity",
+        "sleep apnea"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "I have fms and breast tumor stage 4. Age 38, Male. On duloxetine and amlodipine.",
+    "entities": {
+      "age": 38,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia",
+        "breast cancer stage 4"
+      ],
+      "medications": [
+        "duloxetine",
+        "amlodipine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have migraine, cad, and cerebrovascular accident. I am 74 years old, F. I take neurontin and sertraline daily. I am in Atlanta.",
+    "entities": {
+      "age": 74,
+      "sex": "Female",
+      "conditions": [
+        "migraine",
+        "coronary artery disease",
+        "stroke"
+      ],
+      "medications": [
+        "gabapentin",
+        "sertraline"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Patient is 51 yo F with elevated blood pressure and psoriasis, on neurontin.",
+    "entities": {
+      "age": 51,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "psoriasis"
+      ],
+      "medications": [
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "55 year old man with chronic hepatitis c. Currently taking coreg, eliquis, and tamoxifen.",
+    "entities": {
+      "age": 55,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "carvedilol",
+        "apixaban",
+        "tamoxifen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "74 y/o female patient with mdd, on semaglutide, lasix, and proair.",
+    "entities": {
+      "age": 74,
+      "sex": "Female",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [
+        "semaglutide",
+        "furosemide",
+        "albuterol"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "anxiety disorder patient looking for trials.",
+    "entities": {
+      "age": 36,
+      "sex": "Female",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have stroke. Age 63, woman. On prinivil and proair. Near Baltimore.",
+    "entities": {
+      "age": 63,
+      "sex": "Female",
+      "conditions": [
+        "stroke"
+      ],
+      "medications": [
+        "lisinopril",
+        "albuterol"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Diagnosed with convulsive disorder and prostate carcinoma stage 4 at age 31. Now 46, female. Currently on norvasc. Living in Cambridge.",
+    "entities": {
+      "age": 46,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy",
+        "prostate cancer stage 4"
+      ],
+      "medications": [
+        "amlodipine"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "55 year old M with relapsing-remitting ms. Currently taking montelukast and low-dose aspirin.",
+    "entities": {
+      "age": 55,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "montelukast",
+        "aspirin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "M patient, 50, diagnosed with anxiety and low thyroid. Current medications: norvasc. Location: North Carolina.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "anxiety",
+        "hypothyroidism"
+      ],
+      "medications": [
+        "amlodipine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Patient is 46 yo M with obesity, prostate carcinoma stage 2, and colon cancer stage 4, on metformin and norvasc.",
+    "entities": {
+      "age": 46,
+      "sex": "Male",
+      "conditions": [
+        "obesity",
+        "prostate cancer stage 2",
+        "colorectal cancer stage 4"
+      ],
+      "medications": [
+        "metformin",
+        "amlodipine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have low hemoglobin and chronic pain. Age 60, gentleman. On plaquenil.",
+    "entities": {
+      "age": 60,
+      "sex": "Male",
+      "conditions": [
+        "anemia",
+        "chronic pain"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is a 46 yo F with history of rheumatoid arthritis and breast carcinoma stage 3. Meds: gabapentin. Lives in Chicago.",
+    "entities": {
+      "age": 46,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis",
+        "breast cancer stage 3"
+      ],
+      "medications": [
+        "gabapentin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Diagnosed with gad. Age 68.",
+    "entities": {
+      "age": 68,
+      "sex": "Male",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have reactive airway disease. Age 78, man. On wegovy. Near Boston.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "asthma"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "22 y/o F patient with iron deficiency anemia, on cymbalta.",
+    "entities": {
+      "age": 22,
+      "sex": "Female",
+      "conditions": [
+        "anemia"
+      ],
+      "medications": [
+        "duloxetine"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have cerebrovascular accident and epilepsy. Age 79, male. On omeprazole, trexall, and gabapentin. Near College Park.",
+    "entities": {
+      "age": 79,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "epilepsy"
+      ],
+      "medications": [
+        "omeprazole",
+        "methotrexate",
+        "gabapentin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "59 F diagnosed with migraine and post-traumatic stress disorder. Based in Maryland.",
+    "entities": {
+      "age": 59,
+      "sex": "Female",
+      "conditions": [
+        "migraine",
+        "ptsd"
+      ],
+      "medications": [],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "F, 52 years old. Suffering from heart disease and cd for several years. Taking humalog.",
+    "entities": {
+      "age": 52,
+      "sex": "Female",
+      "conditions": [
+        "coronary artery disease",
+        "crohns disease"
+      ],
+      "medications": [
+        "insulin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Hi, I am a 56 year old woman. I have been diagnosed with chronic kidney disease and prostate carcinoma. I currently take furosemide. I live near New York.",
+    "entities": {
+      "age": 56,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease",
+        "prostate cancer"
+      ],
+      "medications": [
+        "furosemide"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient is 40 yo M with degenerative joint disease and convulsive disorder, on omeprazole and trexall.",
+    "entities": {
+      "age": 40,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis",
+        "epilepsy"
+      ],
+      "medications": [
+        "omeprazole",
+        "methotrexate"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "26 year old man with osteoarthritis. Currently taking ibuprofen and zestril.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis"
+      ],
+      "medications": [
+        "ibuprofen",
+        "lisinopril"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "man, 32, with breast carcinoma, lung cancer stage 4, and ra. Medications: levoxyl, empagliflozin, tamoxifen, and singulair.",
+    "entities": {
+      "age": 32,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer",
+        "lung cancer stage 4",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "levothyroxine",
+        "empagliflozin",
+        "tamoxifen",
+        "montelukast"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 79 year old Male. Conditions: migraine and rheumatoid arthritis. Medications: hydroxychloroquine. Area: Philadelphia.",
+    "entities": {
+      "age": 79,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "F patient, 31, diagnosed with heart disease. Current medications: deltasone and levoxyl. Location: MA.",
+    "entities": {
+      "age": 31,
+      "sex": "Female",
+      "conditions": [
+        "coronary artery disease"
+      ],
+      "medications": [
+        "prednisone",
+        "levothyroxine"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "56 year old Male with ms, type I diabetes, and chronic psoriasis. Currently taking advil.",
+    "entities": {
+      "age": 56,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis",
+        "type 1 diabetes",
+        "psoriasis"
+      ],
+      "medications": [
+        "ibuprofen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "29 year old M with sleep apnea and crohns disease. Currently taking warfarin. Located in IL.",
+    "entities": {
+      "age": 29,
+      "sex": "Male",
+      "conditions": [
+        "sleep apnea",
+        "crohns disease"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "M, 53 years old. Suffering from copd and neuropathy for several years. Taking omeprazole, duloxetine, and hctz.",
+    "entities": {
+      "age": 53,
+      "sex": "Male",
+      "conditions": [
+        "copd",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "omeprazole",
+        "duloxetine",
+        "hydrochlorothiazide"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am a 45-year-old F diagnosed with breast carcinoma. My current medications include singulair and cymbalta. I live in NC.",
+    "entities": {
+      "age": 45,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer"
+      ],
+      "medications": [
+        "montelukast",
+        "duloxetine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have colitis and colorectal cancer stage 2. Age 59, Female. On semaglutide, furosemide, cymbalta, and montelukast. Near Brooklyn.",
+    "entities": {
+      "age": 59,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis",
+        "colorectal cancer stage 2"
+      ],
+      "medications": [
+        "semaglutide",
+        "furosemide",
+        "duloxetine",
+        "montelukast"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have nsclc stage 2, alzheimers disease, and colon cancer. Age 77, woman. On empagliflozin. Near Arlington.",
+    "entities": {
+      "age": 77,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer stage 2",
+        "alzheimers disease",
+        "colorectal cancer"
+      ],
+      "medications": [
+        "empagliflozin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "83 female with peripheral neuropathy. Meds include prozac.",
+    "entities": {
+      "age": 83,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "fluoxetine"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "32 year old woman with hypertension, heart disease, and non-small cell lung cancer stage 3. Currently taking hctz.",
+    "entities": {
+      "age": 32,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "coronary artery disease",
+        "lung cancer stage 3"
+      ],
+      "medications": [
+        "hydrochlorothiazide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have anxiety. Age 21, female. On warfarin and atorvastatin. Near California.",
+    "entities": {
+      "age": 21,
+      "sex": "Female",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "warfarin",
+        "atorvastatin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have asthma and psoriasis. Age 50, Male. On metformin hcl. Near GA.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "asthma",
+        "psoriasis"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "46 man with atrial fibrillation and severe obesity. Meds include hctz, tamoxifen, trexall, and warfarin.",
+    "entities": {
+      "age": 46,
+      "sex": "Male",
+      "conditions": [
+        "atrial fibrillation",
+        "obesity"
+      ],
+      "medications": [
+        "hydrochlorothiazide",
+        "tamoxifen",
+        "methotrexate",
+        "warfarin"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "63 y/o Female patient with depression and fibromyalgia, on wegovy.",
+    "entities": {
+      "age": 63,
+      "sex": "Female",
+      "conditions": [
+        "depression",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Hi, I am a 30 year old gentleman. I have been diagnosed with post traumatic stress disorder and anemia. I currently take levoxyl and hctz. I live near Richmond.",
+    "entities": {
+      "age": 30,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "anemia"
+      ],
+      "medications": [
+        "levothyroxine",
+        "hydrochlorothiazide"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "gentleman, 34, with bronchial asthma, degenerative joint disease, and chronic lymphocytic leukemia. Medications: baby aspirin and coumadin.",
+    "entities": {
+      "age": 34,
+      "sex": "Male",
+      "conditions": [
+        "asthma",
+        "osteoarthritis",
+        "leukemia"
+      ],
+      "medications": [
+        "aspirin",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is 23 yo M with breast tumor, major depressive disorder, and inflammatory arthritis, on advil and gabapentin.",
+    "entities": {
+      "age": 23,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer",
+        "depression",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "ibuprofen",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "82 year old Female with leukemia. Located in New York.",
+    "entities": {
+      "age": 82,
+      "sex": "Female",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have lung carcinoma and obstructive sleep apnea. Age 46, male. On carvedilol, insulin, and levoxyl. Near Charlotte.",
+    "entities": {
+      "age": 46,
+      "sex": "Male",
+      "conditions": [
+        "lung cancer",
+        "sleep apnea"
+      ],
+      "medications": [
+        "carvedilol",
+        "insulin",
+        "levothyroxine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "50 y/o Male patient with systemic lupus erythematosus and reactive airway disease, on carvedilol and cymbalta.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "lupus",
+        "asthma"
+      ],
+      "medications": [
+        "carvedilol",
+        "duloxetine"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "M, 37 years old. Suffering from type 2 diabetes and renal disease stage 5 for several years. Taking lantus and montelukast.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes",
+        "chronic kidney disease stage 5"
+      ],
+      "medications": [
+        "insulin",
+        "montelukast"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Patient: 78 year old man. Conditions: post-traumatic stress disorder and hyperuricemia. Medications: cozaar and proair. Area: Detroit.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "gout"
+      ],
+      "medications": [
+        "losartan",
+        "albuterol"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "Patient is a 55 yo F with history of brain attack and congestive heart failure. Meds: cymbalta and trexall. Lives in WA.",
+    "entities": {
+      "age": 55,
+      "sex": "Female",
+      "conditions": [
+        "stroke",
+        "heart failure"
+      ],
+      "medications": [
+        "duloxetine",
+        "methotrexate"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "Patient: 66 year old man. Conditions: anxiety and oa. Medications: cymbalta, prozac, and ventolin. Area: GA.",
+    "entities": {
+      "age": 66,
+      "sex": "Male",
+      "conditions": [
+        "anxiety",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "duloxetine",
+        "fluoxetine",
+        "albuterol"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "oa and lung cancer stage 4 - 29 year old lady. Medications: eliquis, zoloft, and ozempic.",
+    "entities": {
+      "age": 29,
+      "sex": "Female",
+      "conditions": [
+        "osteoarthritis",
+        "lung cancer stage 4"
+      ],
+      "medications": [
+        "apixaban",
+        "sertraline",
+        "semaglutide"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "Diagnosed with type 2 diabetes at age 74. Now 80, man. Currently on fluoxetine. Living in Virginia.",
+    "entities": {
+      "age": 80,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "fluoxetine"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "37 year old lady with generalized anxiety disorder. Currently taking ozempic.",
+    "entities": {
+      "age": 37,
+      "sex": "Female",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have ra and sleep apnea. Age 21, M. On insulin glargine, nolvadex, and gabapentin. Near San Francisco.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis",
+        "sleep apnea"
+      ],
+      "medications": [
+        "insulin",
+        "tamoxifen",
+        "gabapentin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Female patient, 43, diagnosed with parkinsons disease and ptsd. Current medications: atorvastatin. Location: Raleigh.",
+    "entities": {
+      "age": 43,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease",
+        "ptsd"
+      ],
+      "medications": [
+        "atorvastatin"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "F, 26 years old. Suffering from peripheral neuropathy and colon cancer stage 3 for several years. Taking cozaar and sitagliptin.",
+    "entities": {
+      "age": 26,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy",
+        "colorectal cancer stage 3"
+      ],
+      "medications": [
+        "losartan",
+        "sitagliptin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "27 year old woman with heart failure. Currently taking zestril, plaquenil, omeprazole, and coumadin. Located in Georgia.",
+    "entities": {
+      "age": 27,
+      "sex": "Female",
+      "conditions": [
+        "heart failure"
+      ],
+      "medications": [
+        "lisinopril",
+        "hydroxychloroquine",
+        "omeprazole",
+        "warfarin"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "I am a 71-year-old lady diagnosed with multiple sclerosis and heart failure. My current medications include januvia. I live in Manhattan.",
+    "entities": {
+      "age": 71,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis",
+        "heart failure"
+      ],
+      "medications": [
+        "sitagliptin"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient: 41 year old F. Conditions: prostate cancer stage 4. Medications: trexall, sertraline, and plaquenil. Area: GA.",
+    "entities": {
+      "age": 41,
+      "sex": "Female",
+      "conditions": [
+        "prostate cancer stage 4"
+      ],
+      "medications": [
+        "methotrexate",
+        "sertraline",
+        "hydroxychloroquine"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "32 year old Female with parkinsons disease and dementia. Currently taking glucophage, humalog, and gabapentin. Located in PA.",
+    "entities": {
+      "age": 32,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease",
+        "alzheimers disease"
+      ],
+      "medications": [
+        "metformin",
+        "insulin",
+        "gabapentin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "male, 73 years old. Suffering from gad and obesity for several years. Taking proair.",
+    "entities": {
+      "age": 73,
+      "sex": "Male",
+      "conditions": [
+        "anxiety",
+        "obesity"
+      ],
+      "medications": [
+        "albuterol"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "emphysema, hyperuricemia, and low hemoglobin - 49 year old male. Medications: atorvastatin and empagliflozin.",
+    "entities": {
+      "age": 49,
+      "sex": "Male",
+      "conditions": [
+        "copd",
+        "gout",
+        "anemia"
+      ],
+      "medications": [
+        "atorvastatin",
+        "empagliflozin"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Patient: 31 year old Male. Conditions: chronic kidney disease and breast carcinoma. Medications: prinivil, synthroid, and cymbalta. Area: Seattle.",
+    "entities": {
+      "age": 31,
+      "sex": "Male",
+      "conditions": [
+        "chronic kidney disease",
+        "breast cancer"
+      ],
+      "medications": [
+        "lisinopril",
+        "levothyroxine",
+        "duloxetine"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "39 y/o F patient with seizure disorder, on lasix, trexall, and proair.",
+    "entities": {
+      "age": 39,
+      "sex": "Female",
+      "conditions": [
+        "epilepsy"
+      ],
+      "medications": [
+        "furosemide",
+        "methotrexate",
+        "albuterol"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "65 year old Female with asthma, anxiety disorder, and ad. Located in Detroit.",
+    "entities": {
+      "age": 65,
+      "sex": "Female",
+      "conditions": [
+        "asthma",
+        "anxiety",
+        "alzheimers disease"
+      ],
+      "medications": [],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "I am a 51-year-old M diagnosed with cad. My current medications include omeprazole and nolvadex. I live in Ann Arbor.",
+    "entities": {
+      "age": 51,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease"
+      ],
+      "medications": [
+        "omeprazole",
+        "tamoxifen"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "39 year old Male with fms, lung carcinoma stage 1, and cad. Located in TX.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia",
+        "lung cancer stage 1",
+        "coronary artery disease"
+      ],
+      "medications": [],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I have breast tumor stage 4 and cd. Age 21, female. On warfarin, plaquenil, and albuterol.",
+    "entities": {
+      "age": 21,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer stage 4",
+        "crohns disease"
+      ],
+      "medications": [
+        "warfarin",
+        "hydroxychloroquine",
+        "albuterol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have cd and ms. Age 70, M. On prednisone and nolvadex. Near Pittsburgh.",
+    "entities": {
+      "age": 70,
+      "sex": "Male",
+      "conditions": [
+        "crohns disease",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "prednisone",
+        "tamoxifen"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient is 70 yo M with hypothyroidism and cardiac failure, on gabapentin, ozempic, and losartan.",
+    "entities": {
+      "age": 70,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "heart failure"
+      ],
+      "medications": [
+        "gabapentin",
+        "semaglutide",
+        "losartan"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is 66 yo M with chf and copd, on warfarin, ventolin, and low-dose aspirin.",
+    "entities": {
+      "age": 66,
+      "sex": "Male",
+      "conditions": [
+        "heart failure",
+        "copd"
+      ],
+      "medications": [
+        "warfarin",
+        "albuterol",
+        "aspirin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "78 y/o woman patient with ms and pd, on sitagliptin and zestril.",
+    "entities": {
+      "age": 78,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "sitagliptin",
+        "lisinopril"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "I was diagnosed with alzheimer disease and rectal cancer stage 2 last year. I am 78, gentleman. Taking plaquenil. I am in Richmond.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "colorectal cancer stage 2"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "39 y/o gentleman patient with long-term pain and diabetes mellitus type 2, on cymbalta and amlodipine.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "duloxetine",
+        "amlodipine"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "Male, age 40, presenting with severe obesity. On lipitor. Based in TX.",
+    "entities": {
+      "age": 40,
+      "sex": "Male",
+      "conditions": [
+        "obesity"
+      ],
+      "medications": [
+        "atorvastatin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "male, 78, with hcv and coronary artery disease. Medications: losartan and carvedilol.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "losartan",
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is a 82 yo M with history of prostate carcinoma stage 1, colorectal cancer, and migraine headaches. Meds: plaquenil. Lives in College Park.",
+    "entities": {
+      "age": 82,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer stage 1",
+        "colorectal cancer",
+        "migraine"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I have hcv. I am 48 years old, lady. I take trexall and glucophage daily. I am in New York.",
+    "entities": {
+      "age": 48,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "methotrexate",
+        "metformin"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "female patient, 41, diagnosed with type I diabetes. Current medications: nolvadex. Location: Virginia.",
+    "entities": {
+      "age": 41,
+      "sex": "Female",
+      "conditions": [
+        "type 1 diabetes"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "54 year old lady with gouty arthritis. Currently taking sertraline, furosemide, hydroxychloroquine, and apixaban.",
+    "entities": {
+      "age": 54,
+      "sex": "Female",
+      "conditions": [
+        "gout"
+      ],
+      "medications": [
+        "sertraline",
+        "furosemide",
+        "hydroxychloroquine",
+        "apixaban"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with anemia, acute lymphoblastic leukemia, and cd at age 74. Now 77, F. Currently on trexall. Living in Columbus.",
+    "entities": {
+      "age": 77,
+      "sex": "Female",
+      "conditions": [
+        "anemia",
+        "leukemia",
+        "crohns disease"
+      ],
+      "medications": [
+        "methotrexate"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Patient is 37 yo F with ad and congestive heart failure, on insulin and neurontin.",
+    "entities": {
+      "age": 37,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "heart failure"
+      ],
+      "medications": [
+        "insulin",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have type II diabetes and pd. Age 45, woman. On levoxyl.",
+    "entities": {
+      "age": 45,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "levothyroxine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is a 55 yo F with history of gouty arthritis and parkinsons disease. Meds: prednisone. Lives in Pittsburgh.",
+    "entities": {
+      "age": 55,
+      "sex": "Female",
+      "conditions": [
+        "gout",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "prednisone"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "I was diagnosed with neuropathy and anemia last year. I am 67, lady. Taking ibuprofen, ozempic, neurontin, and omeprazole. I am in Richmond.",
+    "entities": {
+      "age": 67,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy",
+        "anemia"
+      ],
+      "medications": [
+        "ibuprofen",
+        "semaglutide",
+        "gabapentin",
+        "omeprazole"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "Patient is 39 yo M with chronic lymphocytic leukemia and obesity, on metformin hcl, norvasc, and zestril.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "obesity"
+      ],
+      "medications": [
+        "metformin",
+        "amlodipine",
+        "lisinopril"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "72 y/o F patient with psoriasis and chronic migraine, on motrin, metformin hcl, and gabapentin.",
+    "entities": {
+      "age": 72,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "migraine"
+      ],
+      "medications": [
+        "ibuprofen",
+        "metformin",
+        "gabapentin"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "I have parkinson disease and ulcerative colitis. I am 19 years old, man. I take coreg daily. I am in IL.",
+    "entities": {
+      "age": 19,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease",
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "carvedilol"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "83 Female with mdd. Meds include apixaban and lipitor.",
+    "entities": {
+      "age": 83,
+      "sex": "Female",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [
+        "apixaban",
+        "atorvastatin"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "man, 54 years old. Suffering from fms, plaque psoriasis, and chronic hepatitis c for several years. Taking albuterol.",
+    "entities": {
+      "age": 54,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia",
+        "psoriasis",
+        "hepatitis c"
+      ],
+      "medications": [
+        "albuterol"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "51 year old Female with ulcerative colitis. Currently taking hctz.",
+    "entities": {
+      "age": 51,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "hydrochlorothiazide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "bronchial asthma patient looking for trials.",
+    "entities": {
+      "age": 48,
+      "sex": "Male",
+      "conditions": [
+        "asthma"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is 28 yo M with long-term pain and ra, on low-dose aspirin.",
+    "entities": {
+      "age": 28,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "aspirin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 82-year-old lady diagnosed with breast carcinoma and oa. My current medications include gabapentin, hctz, and aspirin. I live in Miami.",
+    "entities": {
+      "age": 82,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "gabapentin",
+        "hydrochlorothiazide",
+        "aspirin"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "Patient is 73 yo F with nerve damage and chronic obstructive pulmonary disease, on tamoxifen.",
+    "entities": {
+      "age": 73,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy",
+        "copd"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have migraine and ckd stage 5. Age 37, gentleman. On baby aspirin, coumadin, prednisone, and levothyroxine.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "chronic kidney disease stage 5"
+      ],
+      "medications": [
+        "aspirin",
+        "warfarin",
+        "prednisone",
+        "levothyroxine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 64 year old M. I have been diagnosed with clinical depression, acute lymphoblastic leukemia, and afib. I currently take prinivil and deltasone. I live near Atlanta.",
+    "entities": {
+      "age": 64,
+      "sex": "Male",
+      "conditions": [
+        "depression",
+        "leukemia",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "lisinopril",
+        "prednisone"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "54 year old male with diabetes mellitus type 2 and juvenile diabetes. Currently taking aspirin, januvia, and methotrexate. Located in Cambridge.",
+    "entities": {
+      "age": 54,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes",
+        "type 1 diabetes"
+      ],
+      "medications": [
+        "aspirin",
+        "sitagliptin",
+        "methotrexate"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "I have breast cancer stage 1, coronary artery disease, and colitis. I am 24 years old, lady. I take trexall and tamoxifen daily. I am in Arizona.",
+    "entities": {
+      "age": 24,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer stage 1",
+        "coronary artery disease",
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "methotrexate",
+        "tamoxifen"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "I was diagnosed with severe obesity, renal disease, and coronary artery disease last year. I am 74, Male. Taking omeprazole and coumadin. I am in IL.",
+    "entities": {
+      "age": 74,
+      "sex": "Male",
+      "conditions": [
+        "obesity",
+        "chronic kidney disease",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "omeprazole",
+        "warfarin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Male, age 85, presenting with ckd and ad. On warfarin and deltasone. Based in San Francisco.",
+    "entities": {
+      "age": 85,
+      "sex": "Male",
+      "conditions": [
+        "chronic kidney disease",
+        "alzheimers disease"
+      ],
+      "medications": [
+        "warfarin",
+        "prednisone"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have ptsd. Age 70, gentleman. On wegovy. Near Illinois.",
+    "entities": {
+      "age": 70,
+      "sex": "Male",
+      "conditions": [
+        "ptsd"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Patient is a 84 yo M with history of prostate cancer. Meds: wegovy and hydrochlorothiazide. Lives in Orlando.",
+    "entities": {
+      "age": 84,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer"
+      ],
+      "medications": [
+        "semaglutide",
+        "hydrochlorothiazide"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I am a 72-year-old M diagnosed with epilepsy. My current medications include lipitor, prednisone, and humalog. I live in VA.",
+    "entities": {
+      "age": 72,
+      "sex": "Male",
+      "conditions": [
+        "epilepsy"
+      ],
+      "medications": [
+        "atorvastatin",
+        "prednisone",
+        "insulin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I have pd. Age 81, lady. On prozac.",
+    "entities": {
+      "age": 81,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease"
+      ],
+      "medications": [
+        "fluoxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 68 year old man. I have been diagnosed with low thyroid, convulsive disorder, and afib. I currently take lisinopril, coreg, and amlodipine. I live near Pennsylvania.",
+    "entities": {
+      "age": 68,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "epilepsy",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "lisinopril",
+        "carvedilol",
+        "amlodipine"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "male, 32, with uc and prostate cancer. Medications: proair, duloxetine, and wegovy.",
+    "entities": {
+      "age": 32,
+      "sex": "Male",
+      "conditions": [
+        "ulcerative colitis",
+        "prostate cancer"
+      ],
+      "medications": [
+        "albuterol",
+        "duloxetine",
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I was diagnosed with cd and nerve damage last year. I am 50, man. Taking carvedilol. I am in Seattle.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "crohns disease",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "carvedilol"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "I was diagnosed with morbid obesity and lung cancer stage 2 last year. I am 34, woman. Taking aspirin, hydroxychloroquine, and proair. I am in Bethesda.",
+    "entities": {
+      "age": 34,
+      "sex": "Female",
+      "conditions": [
+        "obesity",
+        "lung cancer stage 2"
+      ],
+      "medications": [
+        "aspirin",
+        "hydroxychloroquine",
+        "albuterol"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I have hypothyroidism and coronary artery disease. I am 54 years old, man. I take hydroxychloroquine daily. I am in San Francisco.",
+    "entities": {
+      "age": 54,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "80 year old M with inflammatory arthritis. Currently taking prilosec.",
+    "entities": {
+      "age": 80,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have juvenile diabetes, bmi over 30, and ra. Age 34, female. On sitagliptin and wegovy. Near CA.",
+    "entities": {
+      "age": 34,
+      "sex": "Female",
+      "conditions": [
+        "type 1 diabetes",
+        "obesity",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "sitagliptin",
+        "semaglutide"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Patient is 39 yo M with heart disease and epilepsy, on warfarin and januvia.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease",
+        "epilepsy"
+      ],
+      "medications": [
+        "warfarin",
+        "sitagliptin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "F patient, 20, diagnosed with colorectal cancer. Current medications: baby aspirin, sitagliptin, cymbalta, and methotrexate. Location: Cleveland.",
+    "entities": {
+      "age": 20,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer"
+      ],
+      "medications": [
+        "aspirin",
+        "sitagliptin",
+        "duloxetine",
+        "methotrexate"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Hi, I am a 36 year old gentleman. I have been diagnosed with hyperuricemia. I currently take nolvadex and lipitor. I live near San Diego.",
+    "entities": {
+      "age": 36,
+      "sex": "Male",
+      "conditions": [
+        "gout"
+      ],
+      "medications": [
+        "tamoxifen",
+        "atorvastatin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Patient: 19 year old gentleman. Conditions: ms. Medications: lisinopril. Area: Cincinnati.",
+    "entities": {
+      "age": 19,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "lisinopril"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "I have major depressive disorder and gad. I am 37 years old, Male. I take deltasone daily. I am in Manhattan.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "depression",
+        "anxiety"
+      ],
+      "medications": [
+        "prednisone"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Male, age 21, presenting with neuropathy. On ozempic and lisinopril. Based in PA.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "semaglutide",
+        "lisinopril"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "36 year old man with colorectal cancer. Currently taking lipitor, norvasc, and metformin.",
+    "entities": {
+      "age": 36,
+      "sex": "Male",
+      "conditions": [
+        "colorectal cancer"
+      ],
+      "medications": [
+        "atorvastatin",
+        "amlodipine",
+        "metformin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "29 year old lady with fibromyalgia syndrome and degenerative joint disease. Currently taking wegovy, warfarin, and furosemide. Located in Illinois.",
+    "entities": {
+      "age": 29,
+      "sex": "Female",
+      "conditions": [
+        "fibromyalgia",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "semaglutide",
+        "warfarin",
+        "furosemide"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "F patient, 19, diagnosed with colitis and crohn disease. Current medications: fluoxetine. Location: Maryland.",
+    "entities": {
+      "age": 19,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis",
+        "crohns disease"
+      ],
+      "medications": [
+        "fluoxetine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "20 y/o gentleman patient with low hemoglobin, on hydroxychloroquine, coreg, advil, and ozempic.",
+    "entities": {
+      "age": 20,
+      "sex": "Male",
+      "conditions": [
+        "anemia"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "carvedilol",
+        "ibuprofen",
+        "semaglutide"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "seizure disorder and relapsing-remitting ms - 63 year old man. Medications: januvia and fluoxetine.",
+    "entities": {
+      "age": 63,
+      "sex": "Male",
+      "conditions": [
+        "epilepsy",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "sitagliptin",
+        "fluoxetine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "35 Female diagnosed with atrial fibrillation and human immunodeficiency virus. Based in Cambridge.",
+    "entities": {
+      "age": 35,
+      "sex": "Female",
+      "conditions": [
+        "atrial fibrillation",
+        "hiv"
+      ],
+      "medications": [],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Female, 46, with fibromyalgia syndrome. Medications: zoloft.",
+    "entities": {
+      "age": 46,
+      "sex": "Female",
+      "conditions": [
+        "fibromyalgia"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 30 year old M. I have been diagnosed with fms. I currently take semaglutide, eliquis, albuterol, and lisinopril. I live near Cleveland.",
+    "entities": {
+      "age": 30,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia"
+      ],
+      "medications": [
+        "semaglutide",
+        "apixaban",
+        "albuterol",
+        "lisinopril"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Patient is 37 yo M with lung cancer stage 2, on furosemide, zoloft, wegovy, and gabapentin.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "lung cancer stage 2"
+      ],
+      "medications": [
+        "furosemide",
+        "sertraline",
+        "semaglutide",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "reactive airway disease - 67 year old lady. Medications: gabapentin, singulair, and cozaar.",
+    "entities": {
+      "age": 67,
+      "sex": "Female",
+      "conditions": [
+        "asthma"
+      ],
+      "medications": [
+        "gabapentin",
+        "montelukast",
+        "losartan"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "lady, 48 years old. Suffering from heart disease and psoriasis for several years. Taking insulin, prilosec, and zoloft.",
+    "entities": {
+      "age": 48,
+      "sex": "Female",
+      "conditions": [
+        "coronary artery disease",
+        "psoriasis"
+      ],
+      "medications": [
+        "insulin",
+        "omeprazole",
+        "sertraline"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Diagnosed with nsclc, obstructive sleep apnea, and parkinson disease at age 24. Now 31, lady. Currently on coreg and prednisone. Living in Maryland.",
+    "entities": {
+      "age": 31,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer",
+        "sleep apnea",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "carvedilol",
+        "prednisone"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Patient is a 25 yo F with history of hep c, nerve damage, and epilepsy. Meds: lasix. Lives in Houston.",
+    "entities": {
+      "age": 25,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c",
+        "peripheral neuropathy",
+        "epilepsy"
+      ],
+      "medications": [
+        "furosemide"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am a 44-year-old male diagnosed with chronic lymphocytic leukemia. My current medications include gabapentin and losartan. I live in AZ.",
+    "entities": {
+      "age": 44,
+      "sex": "Male",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [
+        "gabapentin",
+        "losartan"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Patient is 61 yo F with lung carcinoma and human immunodeficiency virus, on coumadin.",
+    "entities": {
+      "age": 61,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer",
+        "hiv"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with non-small cell lung cancer stage 2 and ad. Age 54.",
+    "entities": {
+      "age": 54,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer stage 2",
+        "alzheimers disease"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "F, age 18, presenting with sle and gad. On lipitor, gabapentin, prozac, and ventolin. Based in Illinois.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "lupus",
+        "anxiety"
+      ],
+      "medications": [
+        "atorvastatin",
+        "gabapentin",
+        "fluoxetine",
+        "albuterol"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Patient is a 22 yo M with history of leukemia and colitis. Meds: lasix and wegovy. Lives in Ann Arbor.",
+    "entities": {
+      "age": 22,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "furosemide",
+        "semaglutide"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "I am a 67-year-old Male diagnosed with systemic lupus erythematosus. My current medications include amlodipine. I live in Tucson.",
+    "entities": {
+      "age": 67,
+      "sex": "Male",
+      "conditions": [
+        "lupus"
+      ],
+      "medications": [
+        "amlodipine"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "F, age 39, presenting with relapsing-remitting ms. On empagliflozin, insulin glargine, and zoloft. Based in Columbus.",
+    "entities": {
+      "age": 39,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "empagliflozin",
+        "insulin",
+        "sertraline"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Patient is 23 yo F with gouty arthritis and kidney disease, on furosemide, synthroid, and insulin.",
+    "entities": {
+      "age": 23,
+      "sex": "Female",
+      "conditions": [
+        "gout",
+        "chronic kidney disease"
+      ],
+      "medications": [
+        "furosemide",
+        "levothyroxine",
+        "insulin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "82 female with ad. Meds include levothyroxine.",
+    "entities": {
+      "age": 82,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease"
+      ],
+      "medications": [
+        "levothyroxine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "56 y/o lady patient with dementia, pd, and emphysema, on ibuprofen and trexall.",
+    "entities": {
+      "age": 56,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "parkinsons disease",
+        "copd"
+      ],
+      "medications": [
+        "ibuprofen",
+        "methotrexate"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "Diagnosed with systemic lupus erythematosus at age 41. Now 60, Male. Currently on lasix. Living in Dallas.",
+    "entities": {
+      "age": 60,
+      "sex": "Male",
+      "conditions": [
+        "lupus"
+      ],
+      "medications": [
+        "furosemide"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am a 50 year old Female with chronic psoriasis, leukemia, and severe obesity. I live in Miami.",
+    "entities": {
+      "age": 50,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "leukemia",
+        "obesity"
+      ],
+      "medications": [],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "female, 64, with chronic hepatitis c. Medications: amlodipine, montelukast, and prozac.",
+    "entities": {
+      "age": 64,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "amlodipine",
+        "montelukast",
+        "fluoxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 82 year old Male. Conditions: human immunodeficiency virus and iron deficiency anemia. Medications: duloxetine. Area: OH.",
+    "entities": {
+      "age": 82,
+      "sex": "Male",
+      "conditions": [
+        "hiv",
+        "anemia"
+      ],
+      "medications": [
+        "duloxetine"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Male, 49 years old. Suffering from major depressive disorder for several years. Taking lisinopril.",
+    "entities": {
+      "age": 49,
+      "sex": "Male",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [
+        "lisinopril"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "I am a 79 year old lady with colon cancer and relapsing-remitting ms. I live in AZ.",
+    "entities": {
+      "age": 79,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer",
+        "multiple sclerosis"
+      ],
+      "medications": [],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Hi, I am a 78 year old lady. I have been diagnosed with fms and non-small cell lung cancer. I currently take insulin glargine and warfarin. I live near Tucson.",
+    "entities": {
+      "age": 78,
+      "sex": "Female",
+      "conditions": [
+        "fibromyalgia",
+        "lung cancer"
+      ],
+      "medications": [
+        "insulin",
+        "warfarin"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Patient is a 29 yo F with history of hcv and obesity. Meds: cymbalta, motrin, and deltasone. Lives in California.",
+    "entities": {
+      "age": 29,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c",
+        "obesity"
+      ],
+      "medications": [
+        "duloxetine",
+        "ibuprofen",
+        "prednisone"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "70 year old Male with chronic pain and lupus. Currently taking prilosec. Located in Ann Arbor.",
+    "entities": {
+      "age": 70,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "lupus"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "low thyroid and ptsd - 49 year old woman. Medications: trexall and hctz.",
+    "entities": {
+      "age": 49,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "ptsd"
+      ],
+      "medications": [
+        "methotrexate",
+        "hydrochlorothiazide"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Patient is 75 yo M with post-traumatic stress disorder, colorectal cancer, and elevated blood pressure, on prilosec, eliquis, and carvedilol.",
+    "entities": {
+      "age": 75,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "colorectal cancer",
+        "hypertension"
+      ],
+      "medications": [
+        "omeprazole",
+        "apixaban",
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have ulcerative colitis, leukemia, and low thyroid. Age 30, female. On sertraline.",
+    "entities": {
+      "age": 30,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis",
+        "leukemia",
+        "hypothyroidism"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "28 year old M with rheumatoid arthritis and afib. Currently taking zoloft. Located in Richmond.",
+    "entities": {
+      "age": 28,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I have chronic kidney disease stage 5. Age 79, F. On methotrexate and neurontin.",
+    "entities": {
+      "age": 79,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease stage 5"
+      ],
+      "medications": [
+        "methotrexate",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "ad and migraine patient looking for trials.",
+    "entities": {
+      "age": 25,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "migraine"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "Male, 47, with nsclc. Medications: gabapentin and carvedilol.",
+    "entities": {
+      "age": 47,
+      "sex": "Male",
+      "conditions": [
+        "lung cancer"
+      ],
+      "medications": [
+        "gabapentin",
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "female, 81, with type I diabetes, post-traumatic stress disorder, and elevated blood pressure. Medications: lasix, prozac, amlodipine, and prilosec.",
+    "entities": {
+      "age": 81,
+      "sex": "Female",
+      "conditions": [
+        "type 1 diabetes",
+        "ptsd",
+        "hypertension"
+      ],
+      "medications": [
+        "furosemide",
+        "fluoxetine",
+        "amlodipine",
+        "omeprazole"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 28-year-old male diagnosed with multiple sclerosis and sleep apnea. My current medications include nolvadex and plaquenil. I live in NY.",
+    "entities": {
+      "age": 28,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis",
+        "sleep apnea"
+      ],
+      "medications": [
+        "tamoxifen",
+        "hydroxychloroquine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "lady, age 82, presenting with lung carcinoma. On deltasone, lipitor, and synthroid. Based in Seattle.",
+    "entities": {
+      "age": 82,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer"
+      ],
+      "medications": [
+        "prednisone",
+        "atorvastatin",
+        "levothyroxine"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "Diagnosed with acute lymphoblastic leukemia at age 24. Now 26, male. Currently on aspirin. Living in Atlanta.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [
+        "aspirin"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Patient is 21 yo M with multiple sclerosis, on sertraline.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 73 year old female with post-traumatic stress disorder, pd, and persistent pain. I live in MD.",
+    "entities": {
+      "age": 73,
+      "sex": "Female",
+      "conditions": [
+        "ptsd",
+        "parkinsons disease",
+        "chronic pain"
+      ],
+      "medications": [],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Patient is 63 yo M with stroke, breast tumor, and low hemoglobin, on lasix and hydroxychloroquine.",
+    "entities": {
+      "age": 63,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "breast cancer",
+        "anemia"
+      ],
+      "medications": [
+        "furosemide",
+        "hydroxychloroquine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have chronic obstructive pulmonary disease and fibromyalgia. Age 39, gentleman. On atorvastatin, omeprazole, and metformin hcl. Near OH.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "copd",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "atorvastatin",
+        "omeprazole",
+        "metformin"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "84 female with stroke and breast cancer stage 2. Meds include trexall.",
+    "entities": {
+      "age": 84,
+      "sex": "Female",
+      "conditions": [
+        "stroke",
+        "breast cancer stage 2"
+      ],
+      "medications": [
+        "methotrexate"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "24 year old man with lupus. Currently taking hydroxychloroquine, tamoxifen, lantus, and jardiance.",
+    "entities": {
+      "age": 24,
+      "sex": "Male",
+      "conditions": [
+        "lupus"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "tamoxifen",
+        "insulin",
+        "empagliflozin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "female, 45 years old. Suffering from low hemoglobin and cd for several years. Taking coumadin and cymbalta.",
+    "entities": {
+      "age": 45,
+      "sex": "Female",
+      "conditions": [
+        "anemia",
+        "crohns disease"
+      ],
+      "medications": [
+        "warfarin",
+        "duloxetine"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Patient is 46 yo F with pd, colitis, and colon cancer, on carvedilol.",
+    "entities": {
+      "age": 46,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease",
+        "ulcerative colitis",
+        "colorectal cancer"
+      ],
+      "medications": [
+        "carvedilol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have generalized anxiety disorder and oa. Age 79, man. On sitagliptin and hydroxychloroquine. Near Raleigh.",
+    "entities": {
+      "age": 79,
+      "sex": "Male",
+      "conditions": [
+        "anxiety",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "sitagliptin",
+        "hydroxychloroquine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I have pd and lupus. I am 57 years old, female. I take warfarin, glucophage, and omeprazole daily. I am in Illinois.",
+    "entities": {
+      "age": 57,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease",
+        "lupus"
+      ],
+      "medications": [
+        "warfarin",
+        "metformin",
+        "omeprazole"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Patient is 74 yo M with pd and low hemoglobin, on gabapentin.",
+    "entities": {
+      "age": 74,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease",
+        "anemia"
+      ],
+      "medications": [
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is 50 yo M with cardiac failure and post traumatic stress disorder, on duloxetine and warfarin.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "heart failure",
+        "ptsd"
+      ],
+      "medications": [
+        "duloxetine",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "80 year old woman with osteoarthritis, ms, and parkinson disease. Currently taking carvedilol, zoloft, and jardiance. Located in Bethesda.",
+    "entities": {
+      "age": 80,
+      "sex": "Female",
+      "conditions": [
+        "osteoarthritis",
+        "multiple sclerosis",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "carvedilol",
+        "sertraline",
+        "empagliflozin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Diagnosed with heart disease, heart failure, and type II diabetes at age 22. Now 26, gentleman. Currently on coreg, norvasc, and omeprazole. Living in MD.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease",
+        "heart failure",
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "carvedilol",
+        "amlodipine",
+        "omeprazole"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Hi, I am a 59 year old Male. I have been diagnosed with underactive thyroid and ms. I currently take hydrochlorothiazide and jardiance. I live near Detroit.",
+    "entities": {
+      "age": 59,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "hydrochlorothiazide",
+        "empagliflozin"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "I am a 80 year old male with lupus and chronic lymphocytic leukemia. I live in Miami.",
+    "entities": {
+      "age": 80,
+      "sex": "Male",
+      "conditions": [
+        "lupus",
+        "leukemia"
+      ],
+      "medications": [],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "chronic lymphocytic leukemia and hyperuricemia - 48 year old Male. Medications: albuterol and ibuprofen.",
+    "entities": {
+      "age": 48,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "gout"
+      ],
+      "medications": [
+        "albuterol",
+        "ibuprofen"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "72 year old Male with severe obesity. Located in College Park.",
+    "entities": {
+      "age": 72,
+      "sex": "Male",
+      "conditions": [
+        "obesity"
+      ],
+      "medications": [],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have chronic kidney disease, iron deficiency anemia, and neuropathy. Age 48, F. On atorvastatin, apixaban, and cymbalta. Near OH.",
+    "entities": {
+      "age": 48,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease",
+        "anemia",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "atorvastatin",
+        "apixaban",
+        "duloxetine"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Diagnosed with prostate carcinoma stage 3 at age 20. Now 22, M. Currently on eliquis. Living in Philadelphia.",
+    "entities": {
+      "age": 22,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer stage 3"
+      ],
+      "medications": [
+        "apixaban"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "man patient, 70, diagnosed with breast cancer stage 4. Current medications: atorvastatin. Location: Arlington.",
+    "entities": {
+      "age": 70,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer stage 4"
+      ],
+      "medications": [
+        "atorvastatin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "33 year old gentleman with breast carcinoma stage 2 and stroke. Currently taking losartan and methotrexate.",
+    "entities": {
+      "age": 33,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer stage 2",
+        "stroke"
+      ],
+      "medications": [
+        "losartan",
+        "methotrexate"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I was diagnosed with high blood pressure last year. I am 37, woman. Taking zestril and apixaban. I am in Tampa.",
+    "entities": {
+      "age": 37,
+      "sex": "Female",
+      "conditions": [
+        "hypertension"
+      ],
+      "medications": [
+        "lisinopril",
+        "apixaban"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have lung cancer, congestive heart failure, and low hemoglobin. Age 41, F. On plaquenil and metformin. Near Georgia.",
+    "entities": {
+      "age": 41,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer",
+        "heart failure",
+        "anemia"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "metformin"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "51 y/o man patient with plaque psoriasis and gad, on atorvastatin.",
+    "entities": {
+      "age": 51,
+      "sex": "Male",
+      "conditions": [
+        "psoriasis",
+        "anxiety"
+      ],
+      "medications": [
+        "atorvastatin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "male, 44 years old. Suffering from low hemoglobin for several years. Taking gabapentin, ozempic, cozaar, and hydroxychloroquine.",
+    "entities": {
+      "age": 44,
+      "sex": "Male",
+      "conditions": [
+        "anemia"
+      ],
+      "medications": [
+        "gabapentin",
+        "semaglutide",
+        "losartan",
+        "hydroxychloroquine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "human immunodeficiency virus - 56 year old Male. Medications: wegovy.",
+    "entities": {
+      "age": 56,
+      "sex": "Male",
+      "conditions": [
+        "hiv"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Patient: 37 year old M. Conditions: cerebrovascular accident. Medications: hctz. Area: Michigan.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "stroke"
+      ],
+      "medications": [
+        "hydrochlorothiazide"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "I am a 33-year-old woman diagnosed with chronic psoriasis, kidney disease, and parkinson disease. My current medications include prilosec and methotrexate. I live in Chicago.",
+    "entities": {
+      "age": 33,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "chronic kidney disease",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "omeprazole",
+        "methotrexate"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "18 year old man with renal disease stage 4. Located in Boston.",
+    "entities": {
+      "age": 18,
+      "sex": "Male",
+      "conditions": [
+        "chronic kidney disease stage 4"
+      ],
+      "medications": [],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Female, age 18, presenting with degenerative joint disease, prostate cancer, and parkinson disease. On ventolin. Based in Miami.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "osteoarthritis",
+        "prostate cancer",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "albuterol"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I have nsclc stage 2. I am 25 years old, Male. I take losartan and zestril daily. I am in Brooklyn.",
+    "entities": {
+      "age": 25,
+      "sex": "Male",
+      "conditions": [
+        "lung cancer stage 2"
+      ],
+      "medications": [
+        "losartan",
+        "lisinopril"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "83 year old female with obesity and post-traumatic stress disorder. Currently taking cozaar and ventolin. Located in Ohio.",
+    "entities": {
+      "age": 83,
+      "sex": "Female",
+      "conditions": [
+        "obesity",
+        "ptsd"
+      ],
+      "medications": [
+        "losartan",
+        "albuterol"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "woman patient, 61, diagnosed with sleep apnea. Current medications: lantus. Location: Virginia.",
+    "entities": {
+      "age": 61,
+      "sex": "Female",
+      "conditions": [
+        "sleep apnea"
+      ],
+      "medications": [
+        "insulin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "64 Female with colorectal cancer. Meds include prilosec and wegovy.",
+    "entities": {
+      "age": 64,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer"
+      ],
+      "medications": [
+        "omeprazole",
+        "semaglutide"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "36 woman with hep c. Meds include deltasone and lipitor.",
+    "entities": {
+      "age": 36,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "prednisone",
+        "atorvastatin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I have alzheimers disease, sle, and coronary artery disease. Age 34, gentleman. On levoxyl and albuterol.",
+    "entities": {
+      "age": 34,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "lupus",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "levothyroxine",
+        "albuterol"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 32-year-old Male diagnosed with chronic hepatitis c. My current medications include methotrexate and omeprazole. I live in Michigan.",
+    "entities": {
+      "age": 32,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "methotrexate",
+        "omeprazole"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "75 year old M with migraine headaches and systemic lupus erythematosus. Located in Charlotte.",
+    "entities": {
+      "age": 75,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "lupus"
+      ],
+      "medications": [],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "lady, 26 years old. Suffering from anxiety disorder and htn for several years. Taking tamoxifen and lasix.",
+    "entities": {
+      "age": 26,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "hypertension"
+      ],
+      "medications": [
+        "tamoxifen",
+        "furosemide"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "relapsing-remitting ms - 85 year old F. Medications: coumadin and atorvastatin.",
+    "entities": {
+      "age": 85,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "warfarin",
+        "atorvastatin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient: 27 year old lady. Conditions: ulcerative colitis. Medications: metformin hcl and gabapentin. Area: Ann Arbor.",
+    "entities": {
+      "age": 27,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "metformin",
+        "gabapentin"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "Diagnosed with prostate cancer, plaque psoriasis, and mdd at age 18. Now 18, M. Currently on apixaban, tamoxifen, prozac, and losartan. Living in Boston.",
+    "entities": {
+      "age": 18,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer",
+        "psoriasis",
+        "depression"
+      ],
+      "medications": [
+        "apixaban",
+        "tamoxifen",
+        "fluoxetine",
+        "losartan"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have fms and cva. Age 48, gentleman. On montelukast, furosemide, and losartan. Near Bethesda.",
+    "entities": {
+      "age": 48,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia",
+        "stroke"
+      ],
+      "medications": [
+        "montelukast",
+        "furosemide",
+        "losartan"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Hi, I am a 38 year old woman. I have been diagnosed with fms, leukemia, and long-term pain. I currently take duloxetine, prinivil, amlodipine, and ibuprofen. I live near GA.",
+    "entities": {
+      "age": 38,
+      "sex": "Female",
+      "conditions": [
+        "fibromyalgia",
+        "leukemia",
+        "chronic pain"
+      ],
+      "medications": [
+        "duloxetine",
+        "lisinopril",
+        "amlodipine",
+        "ibuprofen"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "I have colitis and hyperuricemia. I am 78 years old, male. I take warfarin and hydrochlorothiazide daily. I am in Tucson.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "ulcerative colitis",
+        "gout"
+      ],
+      "medications": [
+        "warfarin",
+        "hydrochlorothiazide"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Diagnosed with chronic obstructive pulmonary disease, degenerative joint disease, and fms at age 68. Now 73, male. Currently on neurontin, prinivil, deltasone, and cozaar. Living in Bethesda.",
+    "entities": {
+      "age": 73,
+      "sex": "Male",
+      "conditions": [
+        "copd",
+        "osteoarthritis",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "gabapentin",
+        "lisinopril",
+        "prednisone",
+        "losartan"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Patient is a 84 yo F with history of reactive airway disease. Meds: hydrochlorothiazide. Lives in North Carolina.",
+    "entities": {
+      "age": 84,
+      "sex": "Female",
+      "conditions": [
+        "asthma"
+      ],
+      "medications": [
+        "hydrochlorothiazide"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I have prostate cancer, leukemia, and emphysema. Age 47, man. On jardiance and prednisone.",
+    "entities": {
+      "age": 47,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer",
+        "leukemia",
+        "copd"
+      ],
+      "medications": [
+        "empagliflozin",
+        "prednisone"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 43 year old female with t2dm. I live in Chicago.",
+    "entities": {
+      "age": 43,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "medications": [],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "24 year old F with lung carcinoma stage 4. Currently taking duloxetine, hydrochlorothiazide, and humalog. Located in Pennsylvania.",
+    "entities": {
+      "age": 24,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer stage 4"
+      ],
+      "medications": [
+        "duloxetine",
+        "hydrochlorothiazide",
+        "insulin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "78 year old gentleman with acute lymphoblastic leukemia, rheumatoid arthritis, and type 2 diabetes. Located in Georgia.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "rheumatoid arthritis",
+        "type 2 diabetes"
+      ],
+      "medications": [],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "ms - 18 year old F. Medications: cozaar.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "losartan"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Patient is a 43 yo F with history of lung cancer and persistent pain. Meds: synthroid. Lives in AZ.",
+    "entities": {
+      "age": 43,
+      "sex": "Female",
+      "conditions": [
+        "lung cancer",
+        "chronic pain"
+      ],
+      "medications": [
+        "levothyroxine"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "39 y/o Male patient with kidney disease stage 2, nerve damage, and anxiety disorder, on sitagliptin.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "chronic kidney disease stage 2",
+        "peripheral neuropathy",
+        "anxiety"
+      ],
+      "medications": [
+        "sitagliptin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Patient: 34 year old lady. Conditions: copd. Medications: sitagliptin and gabapentin. Area: NC.",
+    "entities": {
+      "age": 34,
+      "sex": "Female",
+      "conditions": [
+        "copd"
+      ],
+      "medications": [
+        "sitagliptin",
+        "gabapentin"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "78 Male with gout. Meds include albuterol and nolvadex.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "gout"
+      ],
+      "medications": [
+        "albuterol",
+        "tamoxifen"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "35 y/o F patient with leukemia, on lipitor and albuterol.",
+    "entities": {
+      "age": 35,
+      "sex": "Female",
+      "conditions": [
+        "leukemia"
+      ],
+      "medications": [
+        "atorvastatin",
+        "albuterol"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "65 F with reactive airway disease and alzheimers disease. Meds include duloxetine and tamoxifen.",
+    "entities": {
+      "age": 65,
+      "sex": "Female",
+      "conditions": [
+        "asthma",
+        "alzheimers disease"
+      ],
+      "medications": [
+        "duloxetine",
+        "tamoxifen"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "I have post-traumatic stress disorder and hyperuricemia. Age 53, F. On hydroxychloroquine and wegovy.",
+    "entities": {
+      "age": 53,
+      "sex": "Female",
+      "conditions": [
+        "ptsd",
+        "gout"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "female, 22, with diabetes mellitus type 2 and clinical depression. Medications: tamoxifen.",
+    "entities": {
+      "age": 22,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes",
+        "depression"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with type 1 diabetes and alzheimers disease at age 61. Now 65, man. Currently on zoloft. Living in AZ.",
+    "entities": {
+      "age": 65,
+      "sex": "Male",
+      "conditions": [
+        "type 1 diabetes",
+        "alzheimers disease"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "Hi, I am a 79 year old woman. I have been diagnosed with hiv positive, copd, and systemic lupus erythematosus. I currently take duloxetine. I live near Georgia.",
+    "entities": {
+      "age": 79,
+      "sex": "Female",
+      "conditions": [
+        "hiv",
+        "copd",
+        "lupus"
+      ],
+      "medications": [
+        "duloxetine"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Diagnosed with post traumatic stress disorder and hep c at age 47. Now 49, male. Currently on coumadin and duloxetine. Living in NC.",
+    "entities": {
+      "age": 49,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "hepatitis c"
+      ],
+      "medications": [
+        "warfarin",
+        "duloxetine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I was diagnosed with seizure disorder last year. I am 52, Male. Taking eliquis. I am in San Francisco.",
+    "entities": {
+      "age": 52,
+      "sex": "Male",
+      "conditions": [
+        "epilepsy"
+      ],
+      "medications": [
+        "apixaban"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "male patient, 59, diagnosed with sle. Current medications: singulair. Location: Cincinnati.",
+    "entities": {
+      "age": 59,
+      "sex": "Male",
+      "conditions": [
+        "lupus"
+      ],
+      "medications": [
+        "montelukast"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "24 y/o man patient with chf and lung carcinoma, on albuterol, coumadin, coreg, and jardiance.",
+    "entities": {
+      "age": 24,
+      "sex": "Male",
+      "conditions": [
+        "heart failure",
+        "lung cancer"
+      ],
+      "medications": [
+        "albuterol",
+        "warfarin",
+        "carvedilol",
+        "empagliflozin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "I have alzheimer disease, degenerative joint disease, and breast cancer stage 2. I am 81 years old, female. I take gabapentin, motrin, and prilosec daily. I am in Pittsburgh.",
+    "entities": {
+      "age": 81,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "osteoarthritis",
+        "breast cancer stage 2"
+      ],
+      "medications": [
+        "gabapentin",
+        "ibuprofen",
+        "omeprazole"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "woman, 34, with persistent pain and hiv. Medications: insulin, prinivil, and losartan.",
+    "entities": {
+      "age": 34,
+      "sex": "Female",
+      "conditions": [
+        "chronic pain",
+        "hiv"
+      ],
+      "medications": [
+        "insulin",
+        "lisinopril",
+        "losartan"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "woman, age 19, presenting with peripheral neuropathy. On prozac and wegovy. Based in Brooklyn.",
+    "entities": {
+      "age": 19,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "fluoxetine",
+        "semaglutide"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "F patient, 78, diagnosed with alzheimer disease and afib. Current medications: ventolin, lisinopril, carvedilol, and coumadin. Location: Cleveland.",
+    "entities": {
+      "age": 78,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "albuterol",
+        "lisinopril",
+        "carvedilol",
+        "warfarin"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "severe obesity - 75 year old M. Medications: zoloft, prednisone, januvia, and lipitor.",
+    "entities": {
+      "age": 75,
+      "sex": "Male",
+      "conditions": [
+        "obesity"
+      ],
+      "medications": [
+        "sertraline",
+        "prednisone",
+        "sitagliptin",
+        "atorvastatin"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient: 63 year old gentleman. Conditions: persistent pain and bmi over 30. Medications: lasix, wegovy, levothyroxine, and zestril. Area: Illinois.",
+    "entities": {
+      "age": 63,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "obesity"
+      ],
+      "medications": [
+        "furosemide",
+        "semaglutide",
+        "levothyroxine",
+        "lisinopril"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "46 male with type II diabetes. Meds include trexall.",
+    "entities": {
+      "age": 46,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "methotrexate"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "67 year old Female with oa and hiv positive. Currently taking zestril and coreg. Located in PA.",
+    "entities": {
+      "age": 67,
+      "sex": "Female",
+      "conditions": [
+        "osteoarthritis",
+        "hiv"
+      ],
+      "medications": [
+        "lisinopril",
+        "carvedilol"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient is 37 yo F with cad and diabetes mellitus type 2, on sertraline.",
+    "entities": {
+      "age": 37,
+      "sex": "Female",
+      "conditions": [
+        "coronary artery disease",
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have stroke and cad. Age 66, M. On humalog, tamoxifen, metformin hcl, and semaglutide. Near Ohio.",
+    "entities": {
+      "age": 66,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "insulin",
+        "tamoxifen",
+        "metformin",
+        "semaglutide"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "gentleman, 52 years old. Suffering from hypothyroidism and ra for several years. Taking tamoxifen.",
+    "entities": {
+      "age": 52,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "43 year old male with crohn disease and parkinsons disease. Currently taking singulair.",
+    "entities": {
+      "age": 43,
+      "sex": "Male",
+      "conditions": [
+        "crohns disease",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "montelukast"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I was diagnosed with iron deficiency anemia, chronic migraine, and chf last year. I am 53, F. Taking glucophage and fluoxetine. I am in WA.",
+    "entities": {
+      "age": 53,
+      "sex": "Female",
+      "conditions": [
+        "anemia",
+        "migraine",
+        "heart failure"
+      ],
+      "medications": [
+        "metformin",
+        "fluoxetine"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "I am a 48 year old lady with rectal cancer stage 2 and atrial fibrillation. I live in Columbus.",
+    "entities": {
+      "age": 48,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer stage 2",
+        "atrial fibrillation"
+      ],
+      "medications": [],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "18 year old Female with breast cancer stage 4 and parkinsons disease. Currently taking apixaban, neurontin, and low-dose aspirin. Located in Houston.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer stage 4",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "apixaban",
+        "gabapentin",
+        "aspirin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "gentleman patient, 61, diagnosed with degenerative joint disease. Current medications: deltasone and eliquis. Location: WA.",
+    "entities": {
+      "age": 61,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis"
+      ],
+      "medications": [
+        "prednisone",
+        "apixaban"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "Patient: 23 year old female. Conditions: ptsd, uc, and peripheral neuropathy. Medications: furosemide and sertraline. Area: New York.",
+    "entities": {
+      "age": 23,
+      "sex": "Female",
+      "conditions": [
+        "ptsd",
+        "ulcerative colitis",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "furosemide",
+        "sertraline"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "I have post traumatic stress disorder, oa, and hypertension. I am 83 years old, M. I take sitagliptin and hctz daily. I am in Charlotte.",
+    "entities": {
+      "age": 83,
+      "sex": "Male",
+      "conditions": [
+        "ptsd",
+        "osteoarthritis",
+        "hypertension"
+      ],
+      "medications": [
+        "sitagliptin",
+        "hydrochlorothiazide"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Male patient, 24, diagnosed with ad, pd, and low hemoglobin. Current medications: prednisone. Location: Cincinnati.",
+    "entities": {
+      "age": 24,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "parkinsons disease",
+        "anemia"
+      ],
+      "medications": [
+        "prednisone"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Hi, I am a 57 year old lady. I have been diagnosed with rheumatoid arthritis. I currently take wegovy, prinivil, and cymbalta. I live near Pittsburgh.",
+    "entities": {
+      "age": 57,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "semaglutide",
+        "lisinopril",
+        "duloxetine"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "man patient, 38, diagnosed with migraine headaches and osteoarthritis. Current medications: coumadin and advil. Location: Austin.",
+    "entities": {
+      "age": 38,
+      "sex": "Male",
+      "conditions": [
+        "migraine",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "warfarin",
+        "ibuprofen"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am a 78-year-old gentleman diagnosed with cerebrovascular accident and breast carcinoma. My current medications include humalog and hydrochlorothiazide. I live in New York.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "breast cancer"
+      ],
+      "medications": [
+        "insulin",
+        "hydrochlorothiazide"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Diagnosed with hypothyroidism and ckd stage 3 at age 21. Now 22, F. Currently on nolvadex, zoloft, and lantus. Living in Boston.",
+    "entities": {
+      "age": 22,
+      "sex": "Female",
+      "conditions": [
+        "hypothyroidism",
+        "chronic kidney disease stage 3"
+      ],
+      "medications": [
+        "tamoxifen",
+        "sertraline",
+        "insulin"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Male, 55, with anxiety. Medications: tamoxifen.",
+    "entities": {
+      "age": 55,
+      "sex": "Male",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "46 y/o Male patient with hiv, on cymbalta and norvasc.",
+    "entities": {
+      "age": 46,
+      "sex": "Male",
+      "conditions": [
+        "hiv"
+      ],
+      "medications": [
+        "duloxetine",
+        "amlodipine"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "Patient is a 77 yo F with history of hcv. Meds: fluoxetine, aspirin, and sertraline. Lives in TX.",
+    "entities": {
+      "age": 77,
+      "sex": "Female",
+      "conditions": [
+        "hepatitis c"
+      ],
+      "medications": [
+        "fluoxetine",
+        "aspirin",
+        "sertraline"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I was diagnosed with generalized anxiety disorder last year. I am 18, F. Taking hydroxychloroquine, proair, cymbalta, and sitagliptin. I am in Virginia.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "anxiety"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "albuterol",
+        "duloxetine",
+        "sitagliptin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have crohns disease and ra. Age 21, gentleman. On jardiance, sertraline, and plaquenil. Near Philadelphia.",
+    "entities": {
+      "age": 21,
+      "sex": "Male",
+      "conditions": [
+        "crohns disease",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "empagliflozin",
+        "sertraline",
+        "hydroxychloroquine"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "woman, 51, with ra and pd. Medications: prilosec and lasix.",
+    "entities": {
+      "age": 51,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "omeprazole",
+        "furosemide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 27 year old lady. I have been diagnosed with bmi over 30 and systemic lupus erythematosus. I currently take albuterol, amlodipine, and furosemide. I live near MD.",
+    "entities": {
+      "age": 27,
+      "sex": "Female",
+      "conditions": [
+        "obesity",
+        "lupus"
+      ],
+      "medications": [
+        "albuterol",
+        "amlodipine",
+        "furosemide"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Hi, I am a 42 year old lady. I have been diagnosed with chronic psoriasis. I currently take cymbalta and levoxyl. I live near AZ.",
+    "entities": {
+      "age": 42,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis"
+      ],
+      "medications": [
+        "duloxetine",
+        "levothyroxine"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "female, age 32, presenting with alzheimer disease, iron deficiency anemia, and clinical depression. On cozaar and hydrochlorothiazide. Based in Atlanta.",
+    "entities": {
+      "age": 32,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease",
+        "anemia",
+        "depression"
+      ],
+      "medications": [
+        "losartan",
+        "hydrochlorothiazide"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "male, 43, with asthma and fibromyalgia. Medications: sertraline, cozaar, and atorvastatin.",
+    "entities": {
+      "age": 43,
+      "sex": "Male",
+      "conditions": [
+        "asthma",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "sertraline",
+        "losartan",
+        "atorvastatin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "33 lady with ulcerative colitis, a-fib, and breast carcinoma stage 1. Meds include metformin, levothyroxine, and nolvadex.",
+    "entities": {
+      "age": 33,
+      "sex": "Female",
+      "conditions": [
+        "ulcerative colitis",
+        "atrial fibrillation",
+        "breast cancer stage 1"
+      ],
+      "medications": [
+        "metformin",
+        "levothyroxine",
+        "tamoxifen"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "57 year old lady with mdd. Located in Orlando.",
+    "entities": {
+      "age": 57,
+      "sex": "Female",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "69 year old Female with kidney disease. Located in Miami.",
+    "entities": {
+      "age": 69,
+      "sex": "Female",
+      "conditions": [
+        "chronic kidney disease"
+      ],
+      "medications": [],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "65 year old Female with hyperuricemia and chronic obstructive pulmonary disease. Currently taking ibuprofen and low-dose aspirin.",
+    "entities": {
+      "age": 65,
+      "sex": "Female",
+      "conditions": [
+        "gout",
+        "copd"
+      ],
+      "medications": [
+        "ibuprofen",
+        "aspirin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "man, 22, with severe obesity. Medications: eliquis.",
+    "entities": {
+      "age": 22,
+      "sex": "Male",
+      "conditions": [
+        "obesity"
+      ],
+      "medications": [
+        "apixaban"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have hiv, multiple sclerosis, and degenerative joint disease. Age 27, gentleman. On omeprazole and hydroxychloroquine. Near NY.",
+    "entities": {
+      "age": 27,
+      "sex": "Male",
+      "conditions": [
+        "hiv",
+        "multiple sclerosis",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "omeprazole",
+        "hydroxychloroquine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "man, age 60, presenting with persistent pain and epilepsy. On warfarin and synthroid. Based in Charlotte.",
+    "entities": {
+      "age": 60,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "epilepsy"
+      ],
+      "medications": [
+        "warfarin",
+        "levothyroxine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "woman, 30, with prostate cancer stage 3. Medications: wegovy, baby aspirin, insulin, and neurontin.",
+    "entities": {
+      "age": 30,
+      "sex": "Female",
+      "conditions": [
+        "prostate cancer stage 3"
+      ],
+      "medications": [
+        "semaglutide",
+        "aspirin",
+        "insulin",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "male, 81, with alzheimers disease. Medications: ibuprofen and deltasone.",
+    "entities": {
+      "age": 81,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease"
+      ],
+      "medications": [
+        "ibuprofen",
+        "prednisone"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "man, age 27, presenting with bmi over 30, convulsive disorder, and heart failure. On warfarin, insulin glargine, and tamoxifen. Based in Virginia.",
+    "entities": {
+      "age": 27,
+      "sex": "Male",
+      "conditions": [
+        "obesity",
+        "epilepsy",
+        "heart failure"
+      ],
+      "medications": [
+        "warfarin",
+        "insulin",
+        "tamoxifen"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I am a 35 year old male with asthma and osteoarthritis. I live in Florida.",
+    "entities": {
+      "age": 35,
+      "sex": "Male",
+      "conditions": [
+        "asthma",
+        "osteoarthritis"
+      ],
+      "medications": [],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "plaque psoriasis and post traumatic stress disorder patient looking for trials.",
+    "entities": {
+      "age": 58,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "ptsd"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient is 42 yo M with nerve damage, on plaquenil and hydrochlorothiazide.",
+    "entities": {
+      "age": 42,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "hydrochlorothiazide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "78 female with gout. Meds include losartan and low-dose aspirin.",
+    "entities": {
+      "age": 78,
+      "sex": "Female",
+      "conditions": [
+        "gout"
+      ],
+      "medications": [
+        "losartan",
+        "aspirin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "37 year old man with ad and chronic hepatitis c. Currently taking ventolin and amlodipine. Located in TX.",
+    "entities": {
+      "age": 37,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "hepatitis c"
+      ],
+      "medications": [
+        "albuterol",
+        "amlodipine"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "54 y/o Male patient with htn, on carvedilol, plaquenil, and wegovy.",
+    "entities": {
+      "age": 54,
+      "sex": "Male",
+      "conditions": [
+        "hypertension"
+      ],
+      "medications": [
+        "carvedilol",
+        "hydroxychloroquine",
+        "semaglutide"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "29 y/o woman patient with anxiety, emphysema, and hyperuricemia, on amlodipine and furosemide.",
+    "entities": {
+      "age": 29,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "copd",
+        "gout"
+      ],
+      "medications": [
+        "amlodipine",
+        "furosemide"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "male, 25, with ms and htn. Medications: wegovy.",
+    "entities": {
+      "age": 25,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis",
+        "hypertension"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "19 year old gentleman with morbid obesity and coronary artery disease. Currently taking furosemide and advil. Located in NY.",
+    "entities": {
+      "age": 19,
+      "sex": "Male",
+      "conditions": [
+        "obesity",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "furosemide",
+        "ibuprofen"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "61 year old woman with asthma. Currently taking hydrochlorothiazide. Located in Texas.",
+    "entities": {
+      "age": 61,
+      "sex": "Female",
+      "conditions": [
+        "asthma"
+      ],
+      "medications": [
+        "hydrochlorothiazide"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "56 y/o lady patient with generalized anxiety disorder, colitis, and inflammatory arthritis, on warfarin and methotrexate.",
+    "entities": {
+      "age": 56,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "ulcerative colitis",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "warfarin",
+        "methotrexate"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I was diagnosed with colorectal cancer stage 2 and stroke last year. I am 67, M. Taking glucophage and zoloft. I am in Massachusetts.",
+    "entities": {
+      "age": 67,
+      "sex": "Male",
+      "conditions": [
+        "colorectal cancer stage 2",
+        "stroke"
+      ],
+      "medications": [
+        "metformin",
+        "sertraline"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Patient is a 79 yo F with history of relapsing-remitting ms, human immunodeficiency virus, and chronic lymphocytic leukemia. Meds: losartan. Lives in OH.",
+    "entities": {
+      "age": 79,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis",
+        "hiv",
+        "leukemia"
+      ],
+      "medications": [
+        "losartan"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Patient is 33 yo F with inflammatory arthritis, on ozempic, omeprazole, jardiance, and duloxetine.",
+    "entities": {
+      "age": 33,
+      "sex": "Female",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "semaglutide",
+        "omeprazole",
+        "empagliflozin",
+        "duloxetine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with clinical depression and hiv at age 44. Now 61, male. Currently on hydroxychloroquine and jardiance. Living in Chicago.",
+    "entities": {
+      "age": 61,
+      "sex": "Male",
+      "conditions": [
+        "depression",
+        "hiv"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "empagliflozin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "lady, 85, with hiv. Medications: hctz.",
+    "entities": {
+      "age": 85,
+      "sex": "Female",
+      "conditions": [
+        "hiv"
+      ],
+      "medications": [
+        "hydrochlorothiazide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "M, age 26, presenting with oa, type I diabetes, and inflammatory arthritis. On cymbalta. Based in Maryland.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis",
+        "type 1 diabetes",
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "duloxetine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "gentleman patient, 19, diagnosed with persistent pain, mdd, and congestive heart failure. Current medications: sertraline. Location: Columbus.",
+    "entities": {
+      "age": 19,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "depression",
+        "heart failure"
+      ],
+      "medications": [
+        "sertraline"
+      ],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "I am a 58-year-old male diagnosed with persistent pain, parkinson disease, and psoriasis. My current medications include neurontin, lipitor, and aspirin. I live in Richmond.",
+    "entities": {
+      "age": 58,
+      "sex": "Male",
+      "conditions": [
+        "chronic pain",
+        "parkinsons disease",
+        "psoriasis"
+      ],
+      "medications": [
+        "gabapentin",
+        "atorvastatin",
+        "aspirin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have prostate carcinoma stage 1 and chronic hepatitis c. Age 76, lady. On synthroid and proair. Near Atlanta.",
+    "entities": {
+      "age": 76,
+      "sex": "Female",
+      "conditions": [
+        "prostate cancer stage 1",
+        "hepatitis c"
+      ],
+      "medications": [
+        "levothyroxine",
+        "albuterol"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Patient: 23 year old M. Conditions: prostate carcinoma stage 4, sleep apnea, and kidney disease stage 3. Medications: metformin, tamoxifen, and lipitor. Area: Chicago.",
+    "entities": {
+      "age": 23,
+      "sex": "Male",
+      "conditions": [
+        "prostate cancer stage 4",
+        "sleep apnea",
+        "chronic kidney disease stage 3"
+      ],
+      "medications": [
+        "metformin",
+        "tamoxifen",
+        "atorvastatin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "Hi, I am a 83 year old F. I have been diagnosed with low hemoglobin and anxiety. I currently take lasix and prednisone. I live near WA.",
+    "entities": {
+      "age": 83,
+      "sex": "Female",
+      "conditions": [
+        "anemia",
+        "anxiety"
+      ],
+      "medications": [
+        "furosemide",
+        "prednisone"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "man, 39, with major depressive disorder. Medications: coreg, prinivil, and ozempic.",
+    "entities": {
+      "age": 39,
+      "sex": "Male",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [
+        "carvedilol",
+        "lisinopril",
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with coronary artery disease and psoriasis at age 22. Now 32, lady. Currently on ozempic and omeprazole. Living in FL.",
+    "entities": {
+      "age": 32,
+      "sex": "Female",
+      "conditions": [
+        "coronary artery disease",
+        "psoriasis"
+      ],
+      "medications": [
+        "semaglutide",
+        "omeprazole"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "69 M diagnosed with leukemia and inflammatory arthritis. Based in Chicago.",
+    "entities": {
+      "age": 69,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "rheumatoid arthritis"
+      ],
+      "medications": [],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "gentleman, 67, with pd, emphysema, and cad. Medications: empagliflozin and tamoxifen.",
+    "entities": {
+      "age": 67,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease",
+        "copd",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "empagliflozin",
+        "tamoxifen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with multiple sclerosis. Age 43.",
+    "entities": {
+      "age": 43,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "I have leukemia and type II diabetes. Age 32, female. On ibuprofen and januvia.",
+    "entities": {
+      "age": 32,
+      "sex": "Female",
+      "conditions": [
+        "leukemia",
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "ibuprofen",
+        "sitagliptin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am a 25 year old M with type 1 diabetes and depression. I live in MI.",
+    "entities": {
+      "age": 25,
+      "sex": "Male",
+      "conditions": [
+        "type 1 diabetes",
+        "depression"
+      ],
+      "medications": [],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "I am a 69-year-old male diagnosed with post-traumatic stress disorder. My current medications include lisinopril and neurontin. I live in Austin.",
+    "entities": {
+      "age": 69,
+      "sex": "Male",
+      "conditions": [
+        "ptsd"
+      ],
+      "medications": [
+        "lisinopril",
+        "gabapentin"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "65 year old gentleman with leukemia and chronic hepatitis c. Currently taking zoloft and metformin hcl.",
+    "entities": {
+      "age": 65,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "hepatitis c"
+      ],
+      "medications": [
+        "sertraline",
+        "metformin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have breast tumor stage 2 and cd. Age 22, M. On atorvastatin and aspirin. Near Tucson.",
+    "entities": {
+      "age": 22,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer stage 2",
+        "crohns disease"
+      ],
+      "medications": [
+        "atorvastatin",
+        "aspirin"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "I am a 65 year old F with emphysema and brain attack. I live in Charlotte.",
+    "entities": {
+      "age": 65,
+      "sex": "Female",
+      "conditions": [
+        "copd",
+        "stroke"
+      ],
+      "medications": [],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Patient: 65 year old Female. Conditions: atrial fibrillation and prostate cancer stage 3. Medications: metformin hcl. Area: Richmond.",
+    "entities": {
+      "age": 65,
+      "sex": "Female",
+      "conditions": [
+        "atrial fibrillation",
+        "prostate cancer stage 3"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I have acute lymphoblastic leukemia and post-traumatic stress disorder. Age 56, male. On amlodipine and coumadin.",
+    "entities": {
+      "age": 56,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "ptsd"
+      ],
+      "medications": [
+        "amlodipine",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have breast carcinoma. Age 84, F. On synthroid, singulair, and insulin glargine.",
+    "entities": {
+      "age": 84,
+      "sex": "Female",
+      "conditions": [
+        "breast cancer"
+      ],
+      "medications": [
+        "levothyroxine",
+        "montelukast",
+        "insulin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I have type II diabetes and degenerative joint disease. Age 48, male. On methotrexate, coreg, and lisinopril.",
+    "entities": {
+      "age": 48,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes",
+        "osteoarthritis"
+      ],
+      "medications": [
+        "methotrexate",
+        "carvedilol",
+        "lisinopril"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 71 year old man. Conditions: ms. Medications: trexall, warfarin, and glucophage. Area: MD.",
+    "entities": {
+      "age": 71,
+      "sex": "Male",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "methotrexate",
+        "warfarin",
+        "metformin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Female, 33, with hypertension and t1dm. Medications: hydroxychloroquine and atorvastatin.",
+    "entities": {
+      "age": 33,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "type 1 diabetes"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "atorvastatin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 27 year old F. I have been diagnosed with cd and ckd. I currently take prozac. I live near Seattle.",
+    "entities": {
+      "age": 27,
+      "sex": "Female",
+      "conditions": [
+        "crohns disease",
+        "chronic kidney disease"
+      ],
+      "medications": [
+        "fluoxetine"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have breast cancer. Age 44, male. On atorvastatin. Near Bethesda.",
+    "entities": {
+      "age": 44,
+      "sex": "Male",
+      "conditions": [
+        "breast cancer"
+      ],
+      "medications": [
+        "atorvastatin"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "I am a 30-year-old female diagnosed with chronic psoriasis, chronic migraine, and uc. My current medications include warfarin, prozac, glucophage, and cozaar. I live in San Francisco.",
+    "entities": {
+      "age": 30,
+      "sex": "Female",
+      "conditions": [
+        "psoriasis",
+        "migraine",
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "warfarin",
+        "fluoxetine",
+        "metformin",
+        "losartan"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "43 year old female with relapsing-remitting ms, non-small cell lung cancer stage 3, and hiv. Located in Ohio.",
+    "entities": {
+      "age": 43,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis",
+        "lung cancer stage 3",
+        "hiv"
+      ],
+      "medications": [],
+      "location": "Ohio"
+    }
+  },
+  {
+    "text": "Patient is 68 yo M with chronic hepatitis c and cva, on hydroxychloroquine, amlodipine, and neurontin.",
+    "entities": {
+      "age": 68,
+      "sex": "Male",
+      "conditions": [
+        "hepatitis c",
+        "stroke"
+      ],
+      "medications": [
+        "hydroxychloroquine",
+        "amlodipine",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I was diagnosed with degenerative joint disease last year. I am 26, M. Taking metformin hcl. I am in MI.",
+    "entities": {
+      "age": 26,
+      "sex": "Male",
+      "conditions": [
+        "osteoarthritis"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "male, 50, with rectal cancer and convulsive disorder. Medications: baby aspirin, fluoxetine, and levoxyl.",
+    "entities": {
+      "age": 50,
+      "sex": "Male",
+      "conditions": [
+        "colorectal cancer",
+        "epilepsy"
+      ],
+      "medications": [
+        "aspirin",
+        "fluoxetine",
+        "levothyroxine"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Hi, I am a 82 year old man. I have been diagnosed with major depressive disorder. I currently take coumadin. I live near Illinois.",
+    "entities": {
+      "age": 82,
+      "sex": "Male",
+      "conditions": [
+        "depression"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "69 year old F with post-traumatic stress disorder, brain attack, and ulcerative colitis. Currently taking coumadin.",
+    "entities": {
+      "age": 69,
+      "sex": "Female",
+      "conditions": [
+        "ptsd",
+        "stroke",
+        "ulcerative colitis"
+      ],
+      "medications": [
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "83 y/o female patient with ad, on hydroxychloroquine.",
+    "entities": {
+      "age": 83,
+      "sex": "Female",
+      "conditions": [
+        "alzheimers disease"
+      ],
+      "medications": [
+        "hydroxychloroquine"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "Hi, I am a 53 year old man. I have been diagnosed with low thyroid, clinical depression, and peripheral neuropathy. I currently take cymbalta and januvia. I live near Tampa.",
+    "entities": {
+      "age": 53,
+      "sex": "Male",
+      "conditions": [
+        "hypothyroidism",
+        "depression",
+        "peripheral neuropathy"
+      ],
+      "medications": [
+        "duloxetine",
+        "sitagliptin"
+      ],
+      "location": "Florida"
+    }
+  },
+  {
+    "text": "I am looking for clinical trials. I have iron deficiency anemia and chronic migraine. Age 62, Male. On ibuprofen, methotrexate, and metformin hcl. Near Pittsburgh.",
+    "entities": {
+      "age": 62,
+      "sex": "Male",
+      "conditions": [
+        "anemia",
+        "migraine"
+      ],
+      "medications": [
+        "ibuprofen",
+        "methotrexate",
+        "metformin"
+      ],
+      "location": "Pennsylvania"
+    }
+  },
+  {
+    "text": "Patient: 29 year old man. Conditions: type 2 diabetes and gout. Medications: levothyroxine, lipitor, losartan, and plaquenil. Area: Washington.",
+    "entities": {
+      "age": 29,
+      "sex": "Male",
+      "conditions": [
+        "type 2 diabetes",
+        "gout"
+      ],
+      "medications": [
+        "levothyroxine",
+        "atorvastatin",
+        "losartan",
+        "hydroxychloroquine"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "Patient is a 20 yo F with history of generalized anxiety disorder and ptsd. Meds: wegovy. Lives in MI.",
+    "entities": {
+      "age": 20,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "ptsd"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "60 y/o Female patient with t2dm, psoriasis, and major depressive disorder, on synthroid.",
+    "entities": {
+      "age": 60,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes",
+        "psoriasis",
+        "depression"
+      ],
+      "medications": [
+        "levothyroxine"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "18 year old Female with gad and fibromyalgia. Currently taking lipitor, baby aspirin, and omeprazole. Located in NC.",
+    "entities": {
+      "age": 18,
+      "sex": "Female",
+      "conditions": [
+        "anxiety",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "atorvastatin",
+        "aspirin",
+        "omeprazole"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "Patient is 76 yo M with nerve damage and cd, on atorvastatin and coumadin.",
+    "entities": {
+      "age": 76,
+      "sex": "Male",
+      "conditions": [
+        "peripheral neuropathy",
+        "crohns disease"
+      ],
+      "medications": [
+        "atorvastatin",
+        "warfarin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Female, age 49, presenting with t2dm, major depressive disorder, and lupus. On coreg and omeprazole. Based in Massachusetts.",
+    "entities": {
+      "age": 49,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes",
+        "depression",
+        "lupus"
+      ],
+      "medications": [
+        "carvedilol",
+        "omeprazole"
+      ],
+      "location": "Massachusetts"
+    }
+  },
+  {
+    "text": "Male, 77, with fms, parkinsons disease, and cerebrovascular accident. Medications: eliquis, hctz, and tamoxifen.",
+    "entities": {
+      "age": 77,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia",
+        "parkinsons disease",
+        "stroke"
+      ],
+      "medications": [
+        "apixaban",
+        "hydrochlorothiazide",
+        "tamoxifen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "80 year old M with asthma. Located in Manhattan.",
+    "entities": {
+      "age": 80,
+      "sex": "Male",
+      "conditions": [
+        "asthma"
+      ],
+      "medications": [],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "Patient is a 71 yo M with history of chronic lymphocytic leukemia and hiv positive. Meds: prednisone and zoloft. Lives in Illinois.",
+    "entities": {
+      "age": 71,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "hiv"
+      ],
+      "medications": [
+        "prednisone",
+        "sertraline"
+      ],
+      "location": "Illinois"
+    }
+  },
+  {
+    "text": "31 year old M with fms and parkinsons disease. Currently taking lantus, synthroid, and zoloft.",
+    "entities": {
+      "age": 31,
+      "sex": "Male",
+      "conditions": [
+        "fibromyalgia",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "insulin",
+        "levothyroxine",
+        "sertraline"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "F patient, 47, diagnosed with peripheral neuropathy, breast tumor, and crohn disease. Current medications: singulair and losartan. Location: Atlanta.",
+    "entities": {
+      "age": 47,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy",
+        "breast cancer",
+        "crohns disease"
+      ],
+      "medications": [
+        "montelukast",
+        "losartan"
+      ],
+      "location": "Georgia"
+    }
+  },
+  {
+    "text": "Hi, I am a 58 year old Female. I have been diagnosed with pd, bronchial asthma, and heart failure. I currently take nolvadex and amlodipine. I live near Houston.",
+    "entities": {
+      "age": 58,
+      "sex": "Female",
+      "conditions": [
+        "parkinsons disease",
+        "asthma",
+        "heart failure"
+      ],
+      "medications": [
+        "tamoxifen",
+        "amlodipine"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "I am a 30 year old gentleman with acute lymphoblastic leukemia and crohn disease. I live in Houston.",
+    "entities": {
+      "age": 30,
+      "sex": "Male",
+      "conditions": [
+        "leukemia",
+        "crohns disease"
+      ],
+      "medications": [],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "Patient is 32 yo M with t1dm and coronary artery disease, on glucophage.",
+    "entities": {
+      "age": 32,
+      "sex": "Male",
+      "conditions": [
+        "type 1 diabetes",
+        "coronary artery disease"
+      ],
+      "medications": [
+        "metformin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "81 year old man with cad, obesity, and atrial fibrillation. Currently taking motrin and losartan.",
+    "entities": {
+      "age": 81,
+      "sex": "Male",
+      "conditions": [
+        "coronary artery disease",
+        "obesity",
+        "atrial fibrillation"
+      ],
+      "medications": [
+        "ibuprofen",
+        "losartan"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "I was diagnosed with cerebrovascular accident and fibromyalgia last year. I am 46, Male. Taking tamoxifen. I am in Charlotte.",
+    "entities": {
+      "age": 46,
+      "sex": "Male",
+      "conditions": [
+        "stroke",
+        "fibromyalgia"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I have afib and type 1 diabetes.",
+    "entities": {
+      "age": 39,
+      "sex": "Female",
+      "conditions": [
+        "atrial fibrillation",
+        "type 1 diabetes"
+      ],
+      "medications": [],
+      "location": null
+    }
+  },
+  {
+    "text": "67 year old F with a-fib and parkinsons disease. Currently taking wegovy.",
+    "entities": {
+      "age": 67,
+      "sex": "Female",
+      "conditions": [
+        "atrial fibrillation",
+        "parkinsons disease"
+      ],
+      "medications": [
+        "semaglutide"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Patient: 30 year old F. Conditions: nerve damage, heart disease, and major depressive disorder. Medications: prednisone, montelukast, sertraline, and prozac. Area: Manhattan.",
+    "entities": {
+      "age": 30,
+      "sex": "Female",
+      "conditions": [
+        "peripheral neuropathy",
+        "coronary artery disease",
+        "depression"
+      ],
+      "medications": [
+        "prednisone",
+        "montelukast",
+        "sertraline",
+        "fluoxetine"
+      ],
+      "location": "New York"
+    }
+  },
+  {
+    "text": "man, 45, with gout and ad. Medications: warfarin and gabapentin.",
+    "entities": {
+      "age": 45,
+      "sex": "Male",
+      "conditions": [
+        "gout",
+        "alzheimers disease"
+      ],
+      "medications": [
+        "warfarin",
+        "gabapentin"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "85 y/o woman patient with elevated blood pressure and cerebrovascular accident, on deltasone and prilosec.",
+    "entities": {
+      "age": 85,
+      "sex": "Female",
+      "conditions": [
+        "hypertension",
+        "stroke"
+      ],
+      "medications": [
+        "prednisone",
+        "omeprazole"
+      ],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "I am a 81-year-old female diagnosed with long-term pain. My current medications include zestril and carvedilol. I live in San Francisco.",
+    "entities": {
+      "age": 81,
+      "sex": "Female",
+      "conditions": [
+        "chronic pain"
+      ],
+      "medications": [
+        "lisinopril",
+        "carvedilol"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "Hi, I am a 53 year old Male. I have been diagnosed with parkinson disease. I currently take methotrexate. I live near Raleigh.",
+    "entities": {
+      "age": 53,
+      "sex": "Male",
+      "conditions": [
+        "parkinsons disease"
+      ],
+      "medications": [
+        "methotrexate"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "female, 77, with migraine and hiv positive. Medications: duloxetine, eliquis, montelukast, and cozaar.",
+    "entities": {
+      "age": 77,
+      "sex": "Female",
+      "conditions": [
+        "migraine",
+        "hiv"
+      ],
+      "medications": [
+        "duloxetine",
+        "apixaban",
+        "montelukast",
+        "losartan"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "Diagnosed with long-term pain at age 33. Now 34, female. Currently on humalog. Living in VA.",
+    "entities": {
+      "age": 34,
+      "sex": "Female",
+      "conditions": [
+        "chronic pain"
+      ],
+      "medications": [
+        "insulin"
+      ],
+      "location": "Virginia"
+    }
+  },
+  {
+    "text": "I have ms. I am 59 years old, woman. I take semaglutide, carvedilol, and synthroid daily. I am in North Carolina.",
+    "entities": {
+      "age": 59,
+      "sex": "Female",
+      "conditions": [
+        "multiple sclerosis"
+      ],
+      "medications": [
+        "semaglutide",
+        "carvedilol",
+        "levothyroxine"
+      ],
+      "location": "North Carolina"
+    }
+  },
+  {
+    "text": "I was diagnosed with htn and gout last year. I am 19, gentleman. Taking trexall, duloxetine, and insulin glargine. I am in San Francisco.",
+    "entities": {
+      "age": 19,
+      "sex": "Male",
+      "conditions": [
+        "hypertension",
+        "gout"
+      ],
+      "medications": [
+        "methotrexate",
+        "duloxetine",
+        "insulin"
+      ],
+      "location": "California"
+    }
+  },
+  {
+    "text": "I have cardiac failure, chronic psoriasis, and clinical depression. I am 35 years old, woman. I take cozaar, tamoxifen, and warfarin daily. I am in Detroit.",
+    "entities": {
+      "age": 35,
+      "sex": "Female",
+      "conditions": [
+        "heart failure",
+        "psoriasis",
+        "depression"
+      ],
+      "medications": [
+        "losartan",
+        "tamoxifen",
+        "warfarin"
+      ],
+      "location": "Michigan"
+    }
+  },
+  {
+    "text": "Hi, I am a 78 year old man. I have been diagnosed with osa. I currently take nolvadex, methotrexate, and levothyroxine. I live near College Park.",
+    "entities": {
+      "age": 78,
+      "sex": "Male",
+      "conditions": [
+        "sleep apnea"
+      ],
+      "medications": [
+        "tamoxifen",
+        "methotrexate",
+        "levothyroxine"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "Patient is 62 yo M with migraine, on duloxetine and motrin.",
+    "entities": {
+      "age": 62,
+      "sex": "Male",
+      "conditions": [
+        "migraine"
+      ],
+      "medications": [
+        "duloxetine",
+        "ibuprofen"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "57 year old woman with iron deficiency anemia and chf. Currently taking prilosec.",
+    "entities": {
+      "age": 57,
+      "sex": "Female",
+      "conditions": [
+        "anemia",
+        "heart failure"
+      ],
+      "medications": [
+        "omeprazole"
+      ],
+      "location": null
+    }
+  },
+  {
+    "text": "58 gentleman diagnosed with alzheimers disease and psoriasis. Based in WA.",
+    "entities": {
+      "age": 58,
+      "sex": "Male",
+      "conditions": [
+        "alzheimers disease",
+        "psoriasis"
+      ],
+      "medications": [],
+      "location": "Washington"
+    }
+  },
+  {
+    "text": "man patient, 40, diagnosed with inflammatory arthritis. Current medications: lasix. Location: Texas.",
+    "entities": {
+      "age": 40,
+      "sex": "Male",
+      "conditions": [
+        "rheumatoid arthritis"
+      ],
+      "medications": [
+        "furosemide"
+      ],
+      "location": "Texas"
+    }
+  },
+  {
+    "text": "woman, 74 years old. Suffering from type 2 diabetes for several years. Taking nolvadex.",
+    "entities": {
+      "age": 74,
+      "sex": "Female",
+      "conditions": [
+        "type 2 diabetes"
+      ],
+      "medications": [
+        "tamoxifen"
+      ],
+      "location": "Arizona"
+    }
+  },
+  {
+    "text": "woman, 80 years old. Suffering from rectal cancer stage 2 for several years. Taking fluoxetine and methotrexate.",
+    "entities": {
+      "age": 80,
+      "sex": "Female",
+      "conditions": [
+        "colorectal cancer stage 2"
+      ],
+      "medications": [
+        "fluoxetine",
+        "methotrexate"
+      ],
+      "location": "Maryland"
+    }
+  },
+  {
+    "text": "42 Male with bronchial asthma, parkinson disease, and prostate cancer. Meds include hydrochlorothiazide and ventolin.",
+    "entities": {
+      "age": 42,
+      "sex": "Male",
+      "conditions": [
+        "asthma",
+        "parkinsons disease",
+        "prostate cancer"
+      ],
+      "medications": [
+        "hydrochlorothiazide",
+        "albuterol"
+      ],
+      "location": "Massachusetts"
+    }
+  }
+]
