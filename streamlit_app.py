@@ -244,7 +244,7 @@ def main():
     st.markdown("""
     <div class="main-header">
         <h1>🏥 Clinical Trial Matcher</h1>
-        <p>Describe your medical situation below. We will search 92,000+ clinical trials to find ones you may qualify for.</p>
+        <p>Describe your medical situation below. This tool searches 92,000+ clinical trials to find ones you may qualify for.</p>
     </div>
     """, unsafe_allow_html=True)
 
