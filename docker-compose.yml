@@ -11,11 +11,15 @@ services:
       - plugins.security.disabled=true
     ports:
       - "9200:9200"
-      - "9600:9600"
     volumes:
       - opensearch-data:/usr/share/opensearch/data
     networks:
       - clinical-net
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   opensearch-dashboards:
     image: opensearchproject/opensearch-dashboards:2.11.1
@@ -26,9 +30,49 @@ services:
     ports:
       - "5601:5601"
     depends_on:
+      opensearch:
+        condition: service_healthy
+    networks:
+      - clinical-net
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clinical-api
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENSEARCH_HOST=opensearch
+      - OPENSEARCH_PORT=9200
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    networks:
+      - clinical-net
+    volumes:
+      - ./models:/app/models
+      - ./data/processed:/app/data/processed
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: clinical-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENSEARCH_HOST=opensearch
+      - OPENSEARCH_PORT=9200
+    depends_on:
+      - api
       - opensearch
     networks:
       - clinical-net
+    volumes:
+      - ./models:/app/models
+      - ./data/processed:/app/data/processed
 
 volumes:
   opensearch-data:

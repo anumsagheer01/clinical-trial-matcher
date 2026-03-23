@@ -1,50 +1,44 @@
 # Data processing
-requests==2.31.0
-tqdm==4.66.1
-python-dotenv==1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
 
 # OpenSearch
-opensearch-py==2.4.2
+opensearch-py>=2.4.0
 
 # Testing
-pytest==7.4.3
+pytest>=7.4.0
 
 # Utilities
-python-dateutil==2.8.2
+python-dateutil>=2.8.0
 
-# FastAPI 
-fastapi==0.104.1
+# FastAPI
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
 
-# Uvicorn 
-uvicorn==0.24.0
-
-# Pydantic 
-pydantic==2.5.2
-
-# MCP SDK -  Anthropic's Model Context Protocol
+# MCP SDK
 mcp[cli]>=1.0.0
 
-# Sentence Transformers - for generating text embeddings (vector search)
-sentence-transformers==2.2.2
+# Sentence Transformers
+sentence-transformers>=2.2.2
 
-# HTTPX - async HTTP client (needed for MCP and FastAPI)
-httpx==0.25.2
+# HTTPX
+httpx>=0.25.0
 
-# Anthropic SDK - to call Claude
-anthropic==0.39.0
+# Anthropic SDK
+anthropic>=0.39.0
 
-# Transformers - Hugging Face model library
-transformers==4.36.2
+# Transformers and PEFT
+transformers>=4.36.0
+peft>=0.7.0
+datasets>=2.16.0
+accelerate>=0.25.0
+evaluate>=0.4.0
+seqeval>=1.2.2
 
-# PEFT - Parameter Efficient Fine Tuning (LoRA)
-peft==0.7.1
+# Streamlit
+streamlit>=1.29.0
 
-# Datasets - for loading and processing training data
-datasets==2.16.1
-
-# Accelerate - efficient training
-accelerate==0.25.0
-
-# Evaluate - model evaluation metrics
-evaluate==0.4.1
-seqeval==1.2.2
+# TensorFlow
+tensorflow>=2.15.0
