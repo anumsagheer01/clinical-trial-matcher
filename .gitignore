@@ -15,6 +15,7 @@ venv/
 # Data files
 data/raw/
 data/processed/*.json
+mlruns/
 
 # OS files
 .DS_Store

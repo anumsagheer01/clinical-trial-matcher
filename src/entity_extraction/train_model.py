@@ -24,6 +24,7 @@ from transformers import (
     DataCollatorForSeq2Seq,
 )
 from peft import LoraConfig, get_peft_model, TaskType
+import mlflow
 
 MODEL_NAME = "google/flan-t5-small"
 MAX_INPUT_LENGTH = 256
@@ -137,10 +138,26 @@ def train():
     )
 
     print("\n  Starting training...")
-    print("  This takes 30-60 minutes on CPU. Be patient.\n")
     start_time = time.time()
 
+    mlflow.set_experiment("entity-extraction")
+    with mlflow.start_run():
+        mlflow.log_params({
+            "model": MODEL_NAME,
+            "lora_r": 16,
+            "lora_alpha": 32,
+            "epochs": training_args.num_train_epochs,
+            "learning_rate": training_args.learning_rate,
+            "batch_size": training_args.per_device_train_batch_size,
+        })
+
+
     trainer.train()
+
+    mlflow.log_metrics({
+                "train_loss": trainer.state.log_history[-1].get("train_loss", 0),
+    })
+    mlflow.log_artifact(os.path.join(OUTPUT_DIR, "lora_adapter"))
 
     elapsed = time.time() - start_time
     print(f"\n  Training complete in {elapsed / 60:.1f} minutes")
