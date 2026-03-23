@@ -11,9 +11,13 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from src.search.hybrid_search import hybrid_search
-from src.mcp_servers.entity_extraction_server import extract_patient_entities
-from src.query_classifier.classifier import classify_query
+DEMO_MODE = False
+try:
+    from src.search.hybrid_search import hybrid_search
+    from src.mcp_servers.entity_extraction_server import extract_patient_entities
+    from src.query_classifier.classifier import classify_query
+except ImportError:
+    DEMO_MODE = True
 from dotenv import load_dotenv
 
 
@@ -324,21 +328,29 @@ def main():
     # Search button
     st.markdown("<br>", unsafe_allow_html=True)
 
-    if st.button("Find Matching Trials", type="primary"):
-        if not description.strip():
-            st.warning("Please describe your medical situation above.")
-            return
-
-        # Step 1: Classify query complexity
-        with st.spinner("Analyzing your query..."):
-            query_class = classify_query(description)
-
-        # Step 2: Extract entities from patient text
-        with st.spinner("Understanding your medical information..."):
-            start_time = time.time()
-            entities_json = extract_patient_entities(description)
-            entities = json.loads(entities_json)
-            extraction_time = time.time() - start_time
+      if DEMO_MODE:
+            entities = {"age": age, "sex": sex, "conditions": [], "medications": [], "location": state}
+            query_class = {"classification": "simple", "confidence": 1.0}
+            results = demo_search(description, page_size=10)
+            extraction_time = 0
+        else:
+            with st.spinner("Analyzing your query..."):
+                query_class = classify_query(description)
+            with st.spinner("Understanding your medical information..."):
+                start_time_ext = time.time()
+                entities_json = extract_patient_entities(description)
+                entities = json.loads(entities_json)
+                extraction_time = time.time() - start_time_ext
+            with st.spinner("Searching clinical trials..."):
+                try:
+                    results = hybrid_search(
+                        query_text=description,
+                        min_age=search_age, max_age=search_age,
+                        sex=search_sex, state=search_state,
+                        phase=phase, status="RECRUITING", page_size=10,
+                    )
+                except Exception:
+                    results = demo_search(description, page_size=10)
 
         # Show extracted entities
         st.markdown('<div class="section-header">What I Understood</div>', unsafe_allow_html=True)
