@@ -328,7 +328,7 @@ def main():
     # Search button
     st.markdown("<br>", unsafe_allow_html=True)
 
-      if DEMO_MODE:
+       if DEMO_MODE:
             entities = {"age": age, "sex": sex, "conditions": [], "medications": [], "location": state}
             query_class = {"classification": "simple", "confidence": 1.0}
             results = demo_search(description, page_size=10)
