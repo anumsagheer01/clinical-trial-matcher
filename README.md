@@ -270,4 +270,3 @@ The API deployment includes health check probes that Kubernetes uses to automati
 ## Important!
 
 This tool is for informational and educational purposes only. It is not a substitute for professional medical advice. Always consult your doctor before enrolling in a clinical trial. The system searches publicly available data from ClinicalTrials.gov and the FDA.
-
