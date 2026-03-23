@@ -1,0 +1,44 @@
+# Data processing
+requests>=2.31.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# OpenSearch
+opensearch-py>=2.4.0
+
+# Testing
+pytest>=7.4.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# FastAPI
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# MCP SDK
+mcp[cli]>=1.0.0
+
+# Sentence Transformers
+sentence-transformers>=2.2.2
+
+# HTTPX
+httpx>=0.25.0
+
+# Anthropic SDK
+anthropic>=0.39.0
+
+# Transformers and PEFT
+transformers>=4.36.0
+peft>=0.7.0
+datasets>=2.16.0
+accelerate>=0.25.0
+evaluate>=0.4.0
+seqeval>=1.2.2
+
+# Streamlit
+streamlit>=1.29.0
+
+# TensorFlow
+tensorflow>=2.15.0
