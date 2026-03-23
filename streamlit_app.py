@@ -16,6 +16,42 @@ from src.mcp_servers.entity_extraction_server import extract_patient_entities
 from src.query_classifier.classifier import classify_query
 from dotenv import load_dotenv
 
+
+def demo_search(query_text, page_size=10, **kwargs):
+    """Fallback search using local JSON when OpenSearch is not available."""
+    try:
+        with open("demo_trials.json", "r", encoding="utf-8") as f:
+            trials = json.load(f)
+    except FileNotFoundError:
+        return {"total": 0, "trials": [], "took_ms": 0}
+
+    query_lower = query_text.lower()
+    scored = []
+
+    for trial in trials:
+        score = 0
+        searchable = (
+            " ".join(trial.get("conditions", [])).lower() + " " +
+            trial.get("brief_title", "").lower() + " " +
+            trial.get("brief_summary", "").lower()
+        )
+
+        for word in query_lower.split():
+            if word in searchable:
+                score += 1
+
+        if score > 0:
+            trial["_score"] = score
+            scored.append(trial)
+
+    scored.sort(key=lambda x: x["_score"], reverse=True)
+
+    return {
+        "total": len(scored),
+        "trials": scored[:page_size],
+        "took_ms": 0,
+    }
+
 load_dotenv()
 
 # Page config
@@ -338,18 +374,22 @@ def main():
         search_state = state or entities.get("location")
 
         # Step 3: Search for trials
-        with st.spinner("Searching 92,000+ clinical trials..."):
+        with st.spinner("Searching clinical trials..."):
             search_start = time.time()
-            results = hybrid_search(
-                query_text=description,
-                min_age=search_age,
-                max_age=search_age,
-                sex=search_sex,
-                state=search_state,
-                phase=phase,
-                status="RECRUITING",
-                page_size=10,
-            )
+            try:
+                results = hybrid_search(
+                    query_text=description,
+                    min_age=search_age,
+                    max_age=search_age,
+                    sex=search_sex,
+                    state=search_state,
+                    phase=phase,
+                    status="RECRUITING",
+                    page_size=10,
+                )
+            except Exception:
+                # Fallback to demo mode if OpenSearch is not available
+                results = demo_search(description, page_size=10)
             search_time = time.time() - search_start
 
         # Stats bar
