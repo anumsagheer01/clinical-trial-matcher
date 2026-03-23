@@ -1,0 +1,19 @@
+{
+  "test_queries": 30,
+  "strategy_a": {
+    "name": "keyword-heavy (0.7/0.3)",
+    "avg_relevance": 0.8767,
+    "avg_latency_ms": 233.5,
+    "avg_diversity": 14.7,
+    "coverage": 1.0
+  },
+  "strategy_b": {
+    "name": "vector-heavy (0.3/0.7)",
+    "avg_relevance": 0.9067,
+    "avg_latency_ms": 141.5,
+    "avg_diversity": 15.3,
+    "coverage": 1.0
+  },
+  "winner": "B",
+  "relevance_improvement_pct": 3.4
+}
