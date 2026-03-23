@@ -18,7 +18,10 @@ try:
     from src.query_classifier.classifier import classify_query
 except ImportError:
     DEMO_MODE = True
+
 from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def demo_search(query_text, page_size=10, **kwargs):
@@ -56,7 +59,6 @@ def demo_search(query_text, page_size=10, **kwargs):
         "took_ms": 0,
     }
 
-load_dotenv()
 
 # Page config
 st.set_page_config(
@@ -69,19 +71,16 @@ st.set_page_config(
 # Custom CSS for clean, accessible design
 st.markdown("""
 <style>
-    /* Hide default Streamlit branding */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
 
-    /* Overall page */
     .block-container {
         padding-top: 2rem;
         padding-bottom: 2rem;
         max-width: 900px;
     }
 
-    /* Main heading */
     .main-header {
         text-align: center;
         padding: 1.5rem 0;
@@ -100,7 +99,6 @@ st.markdown("""
         font-weight: 400;
     }
 
-    /* Card styling */
     .trial-card {
         background: #ffffff;
         border: 1px solid #e2e8f0;
@@ -146,13 +144,7 @@ st.markdown("""
         line-height: 1.6;
         margin: 0.5rem 0;
     }
-    .trial-card .meta {
-        font-size: 0.9rem;
-        color: #64748b;
-        margin-top: 0.5rem;
-    }
 
-    /* Eligibility info */
     .elig-row {
         display: flex;
         gap: 1.5rem;
@@ -167,7 +159,6 @@ st.markdown("""
         color: #1a365d;
     }
 
-    /* Stats bar */
     .stats-bar {
         background: #f0f9ff;
         border: 1px solid #bae6fd;
@@ -194,24 +185,6 @@ st.markdown("""
         letter-spacing: 0.5px;
     }
 
-    /* Entity extraction results */
-    .entity-box {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        padding: 1rem 1.5rem;
-        margin-bottom: 1rem;
-    }
-    .entity-box h4 {
-        font-size: 0.95rem;
-        color: #64748b;
-        margin-bottom: 0.5rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-    }
-
-    /* Link to ClinicalTrials.gov */
     .ct-link {
         display: inline-block;
         margin-top: 0.5rem;
@@ -227,7 +200,6 @@ st.markdown("""
         background: #2d4a7c;
     }
 
-    /* Make inputs bigger and clearer */
     .stTextArea textarea {
         font-size: 1.1rem !important;
         line-height: 1.6 !important;
@@ -239,14 +211,7 @@ st.markdown("""
         border-color: #1a365d !important;
         box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.12) !important;
     }
-    .stSelectbox > div > div {
-        font-size: 1.05rem !important;
-    }
-    div[data-testid="stNumberInput"] input {
-        font-size: 1.05rem !important;
-    }
 
-    /* Button */
     .stButton > button {
         background: #1a365d !important;
         color: white !important;
@@ -262,7 +227,6 @@ st.markdown("""
         background: #2d4a7c !important;
     }
 
-    /* Section dividers */
     .section-header {
         font-size: 1.4rem;
         font-weight: 700;
@@ -289,16 +253,16 @@ def main():
         "Describe your medical situation",
         placeholder="Example: I am a 58 year old male with type 2 diabetes and chronic kidney disease stage 3. I currently take metformin and lisinopril. I live in Maryland.",
         height=160,
-        help="Include your age, sex, medical conditions, any medications you take, and your location. The more detail you provide, the better your matches will be.",
+        help="Include your age, sex, medical conditions, any medications you take, and your location.",
     )
 
-    # Optional filters in columns
+    # Optional filters
     st.markdown('<p style="font-size: 1.1rem; font-weight: 600; color: #1a365d; margin-top: 1rem;">Optional Filters</p>', unsafe_allow_html=True)
 
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        age = st.number_input("Age", min_value=0, max_value=120, value=0, step=1, help="Your current age")
+        age = st.number_input("Age", min_value=0, max_value=120, value=0, step=1)
         age = age if age > 0 else None
 
     with col2:
@@ -325,84 +289,63 @@ def main():
         phase_map = {"Phase 1": "PHASE1", "Phase 2": "PHASE2", "Phase 3": "PHASE3", "Phase 4": "PHASE4"}
         phase = phase_map.get(phase)
 
-    # Search button
     st.markdown("<br>", unsafe_allow_html=True)
 
-       if DEMO_MODE:
+    if st.button("Find Matching Trials", type="primary"):
+        if not description.strip():
+            st.warning("Please describe your medical situation above.")
+            return
+
+        # Run search based on mode
+        if DEMO_MODE:
             entities = {"age": age, "sex": sex, "conditions": [], "medications": [], "location": state}
             query_class = {"classification": "simple", "confidence": 1.0}
             results = demo_search(description, page_size=10)
-            extraction_time = 0
         else:
             with st.spinner("Analyzing your query..."):
                 query_class = classify_query(description)
+
             with st.spinner("Understanding your medical information..."):
-                start_time_ext = time.time()
                 entities_json = extract_patient_entities(description)
                 entities = json.loads(entities_json)
-                extraction_time = time.time() - start_time_ext
+
+            search_age = age or entities.get("age")
+            search_sex = sex or entities.get("sex")
+            search_state = state or entities.get("location")
+
             with st.spinner("Searching clinical trials..."):
                 try:
                     results = hybrid_search(
                         query_text=description,
-                        min_age=search_age, max_age=search_age,
-                        sex=search_sex, state=search_state,
-                        phase=phase, status="RECRUITING", page_size=10,
+                        min_age=search_age,
+                        max_age=search_age,
+                        sex=search_sex,
+                        state=search_state,
+                        phase=phase,
+                        status="RECRUITING",
+                        page_size=10,
                     )
                 except Exception:
                     results = demo_search(description, page_size=10)
 
-        # Show extracted entities
+        # Show what was understood
         st.markdown('<div class="section-header">What I Understood</div>', unsafe_allow_html=True)
 
-        st.markdown('<div class="entity-box">', unsafe_allow_html=True)
         ecol1, ecol2, ecol3 = st.columns(3)
-
         with ecol1:
-            extracted_age = entities.get("age") or age
-            extracted_sex = entities.get("sex") or sex
-            st.markdown(f"**Age:** {extracted_age or 'Not specified'}")
-            st.markdown(f"**Sex:** {extracted_sex or 'Not specified'}")
-
+            st.markdown(f"**Age:** {entities.get('age') or age or 'Not specified'}")
+            st.markdown(f"**Sex:** {entities.get('sex') or sex or 'Not specified'}")
         with ecol2:
             conditions = entities.get("conditions", [])
             if conditions:
                 st.markdown(f"**Conditions:** {', '.join(conditions)}")
             else:
                 st.markdown("**Conditions:** Searching by description")
-
         with ecol3:
             meds = entities.get("medications", [])
-            location = entities.get("location") or state
             if meds:
                 st.markdown(f"**Medications:** {', '.join(meds)}")
-            st.markdown(f"**Location:** {location or 'Any'}")
-
-        st.markdown('</div>', unsafe_allow_html=True)
-
-        # Use extracted entities if user did not fill in filters
-        search_age = age or entities.get("age")
-        search_sex = sex or entities.get("sex")
-        search_state = state or entities.get("location")
-
-        # Step 3: Search for trials
-        with st.spinner("Searching clinical trials..."):
-            search_start = time.time()
-            try:
-                results = hybrid_search(
-                    query_text=description,
-                    min_age=search_age,
-                    max_age=search_age,
-                    sex=search_sex,
-                    state=search_state,
-                    phase=phase,
-                    status="RECRUITING",
-                    page_size=10,
-                )
-            except Exception:
-                # Fallback to demo mode if OpenSearch is not available
-                results = demo_search(description, page_size=10)
-            search_time = time.time() - search_start
+            st.markdown(f"**Location:** {entities.get('location') or state or 'Any'}")
 
         # Stats bar
         total = results.get("total", 0)
@@ -430,7 +373,6 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
-        # Results
         if not trials:
             st.info("No matching trials found. Try broadening your search by removing some filters.")
             return
@@ -442,69 +384,4 @@ def main():
             title = trial.get("brief_title", "No title")
             conditions_list = trial.get("conditions", [])
             summary = trial.get("brief_summary", "")[:300]
-            elig = trial.get("eligibility", {})
-            locations = trial.get("locations", [])
-            phases = trial.get("phases", [])
-            score = trial.get("_score", 0)
-
-            # Age range
-            min_a = elig.get("min_age")
-            max_a = elig.get("max_age")
-            age_text = "Any age"
-            if min_a and max_a:
-                age_text = f"{min_a} to {max_a} years"
-            elif min_a:
-                age_text = f"{min_a}+ years"
-            elif max_a:
-                age_text = f"Up to {max_a} years"
-
-            # Location text
-            loc_count = len(locations)
-            loc_text = "No locations listed"
-            if loc_count > 0:
-                first = locations[0]
-                city = first.get("city", "")
-                loc_state = first.get("state", "")
-                loc_text = f"{city}, {loc_state}" if city else loc_state
-                if loc_count > 1:
-                    loc_text += f" and {loc_count - 1} other sites"
-
-            # Phase text
-            phase_text = ", ".join(p.replace("PHASE", "Phase ") for p in phases) if phases else "Not specified"
-
-            # Build condition tags
-            condition_tags = ""
-            for c in conditions_list[:5]:
-                condition_tags += f'<span class="condition-tag">{c}</span>'
-
-            # ClinicalTrials.gov link
-            ct_link = f"https://clinicaltrials.gov/study/{nct_id}" if nct_id else "#"
-
-            st.markdown(f"""
-            <div class="trial-card">
-                <span class="nct-id">{nct_id}</span>
-                <h3>{title}</h3>
-                <div class="conditions-list">{condition_tags}</div>
-                <p class="summary">{summary}{'...' if len(summary) >= 300 else ''}</p>
-                <div class="elig-row">
-                    <div class="elig-item"><strong>Age:</strong> {age_text}</div>
-                    <div class="elig-item"><strong>Sex:</strong> {elig.get('sex', 'All')}</div>
-                    <div class="elig-item"><strong>Phase:</strong> {phase_text}</div>
-                    <div class="elig-item"><strong>Sites:</strong> {loc_text}</div>
-                </div>
-                <a href="{ct_link}" target="_blank" class="ct-link">View on ClinicalTrials.gov</a>
-            </div>
-            """, unsafe_allow_html=True)
-
-    # Footer
-    st.markdown("<br><br>", unsafe_allow_html=True)
-    st.markdown("""
-    <div style="text-align: center; color: #94a3b8; font-size: 0.85rem; padding: 1rem 0; border-top: 1px solid #e2e8f0;">
-        Clinical Trial Matcher searches ClinicalTrials.gov data. This tool is for informational purposes only.
-        Always consult your doctor before enrolling in a clinical trial.
-    </div>
-    """, unsafe_allow_html=True)
-
-
-if __name__ == "__main__":
-    main()
+            elig = trial.get("e
