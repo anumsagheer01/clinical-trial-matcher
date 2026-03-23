@@ -384,4 +384,63 @@ def main():
             title = trial.get("brief_title", "No title")
             conditions_list = trial.get("conditions", [])
             summary = trial.get("brief_summary", "")[:300]
-            elig = trial.get("e
+            elig = trial.get("eligibility", {})
+            locations = trial.get("locations", [])
+            phases = trial.get("phases", [])
+
+            min_a = elig.get("min_age")
+            max_a = elig.get("max_age")
+            age_text = "Any age"
+            if min_a and max_a:
+                age_text = f"{min_a} to {max_a} years"
+            elif min_a:
+                age_text = f"{min_a}+ years"
+            elif max_a:
+                age_text = f"Up to {max_a} years"
+
+            loc_count = len(locations)
+            loc_text = "No locations listed"
+            if loc_count > 0:
+                first = locations[0]
+                city = first.get("city", "")
+                loc_state = first.get("state", "")
+                loc_text = f"{city}, {loc_state}" if city else loc_state
+                if loc_count > 1:
+                    loc_text += f" and {loc_count - 1} other sites"
+
+            phase_text = ", ".join(p.replace("PHASE", "Phase ") for p in phases) if phases else "Not specified"
+
+            condition_tags = ""
+            for c in conditions_list[:5]:
+                condition_tags += f'<span class="condition-tag">{c}</span>'
+
+            ct_link = f"https://clinicaltrials.gov/study/{nct_id}" if nct_id else "#"
+
+            st.markdown(f"""
+            <div class="trial-card">
+                <span class="nct-id">{nct_id}</span>
+                <h3>{title}</h3>
+                <div class="conditions-list">{condition_tags}</div>
+                <p class="summary">{summary}{'...' if len(summary) >= 300 else ''}</p>
+                <div class="elig-row">
+                    <div class="elig-item"><strong>Age:</strong> {age_text}</div>
+                    <div class="elig-item"><strong>Sex:</strong> {elig.get('sex', 'All')}</div>
+                    <div class="elig-item"><strong>Phase:</strong> {phase_text}</div>
+                    <div class="elig-item"><strong>Sites:</strong> {loc_text}</div>
+                </div>
+                <a href="{ct_link}" target="_blank" class="ct-link">View on ClinicalTrials.gov</a>
+            </div>
+            """, unsafe_allow_html=True)
+
+    # Footer
+    st.markdown("<br><br>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align: center; color: #94a3b8; font-size: 0.85rem; padding: 1rem 0; border-top: 1px solid #e2e8f0;">
+        Clinical Trial Matcher searches ClinicalTrials.gov data. This tool is for informational purposes only.
+        Always consult your doctor before enrolling in a clinical trial.
+    </div>
+    """, unsafe_allow_html=True)
+
+
+if __name__ == "__main__":
+    main()
